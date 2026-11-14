@@ -263,6 +263,16 @@ ul {
     margin-bottom: 1.25rem;
 }
 
+.profile-avatar-img {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid var(--brand-red);
+    box-shadow: 0 8px 24px rgba(229, 9, 20, 0.4);
+    display: inline-block;
+}
+
 .profile-avatar {
     width: 90px;
     height: 90px;
