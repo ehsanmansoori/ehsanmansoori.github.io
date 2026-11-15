@@ -618,6 +618,18 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    color: inherit;
+    transition: var(--transition);
+}
+
+.film-item-card:hover {
+    border-color: var(--brand-red);
+    transform: translateY(-2px);
+}
+
+.popcorn-card {
+    display: block;
+    color: inherit;
 }
 
 .film-item-top {
@@ -734,6 +746,137 @@ ul {
     background-color: var(--bg-surface-elevated);
     padding: 0.3rem 0.8rem;
     border-radius: var(--radius-pill);
+}
+
+/* YouTube Official Channel Banner */
+.yt-channel-banner-wrap {
+    position: relative;
+    min-height: 190px;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+.yt-banner-bg {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center 32%;
+    background-repeat: no-repeat;
+}
+
+.yt-banner-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, var(--bg-page) 4%, rgba(11, 13, 17, 0.55) 55%, rgba(11, 13, 17, 0.25) 100%);
+}
+
+.yt-banner-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    padding-block: 1.5rem;
+    width: 100%;
+}
+
+.yt-badge {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: var(--brand-red);
+    padding: 0.2rem 0.7rem;
+    border-radius: var(--radius-pill);
+    margin-bottom: 0.6rem;
+}
+
+.yt-banner-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.3;
+    margin-bottom: 0.3rem;
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.75);
+}
+
+.yt-handle {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    font-weight: 500;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+.btn-yt-sub {
+    background-color: #ffffff;
+    color: #0b0d11;
+    border-radius: var(--radius-pill);
+    font-weight: 700;
+    padding: 0.7rem 1.6rem;
+    white-space: nowrap;
+}
+
+.btn-yt-sub:hover {
+    background-color: var(--brand-red);
+    color: #ffffff;
+    transform: translateY(-1px);
+}
+
+/* Episode YouTube Button */
+.ep-yt-btn {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: var(--brand-red);
+    padding: 0.3rem 0.8rem;
+    border-radius: var(--radius-pill);
+    white-space: nowrap;
+}
+
+.ep-yt-btn:hover {
+    background-color: var(--brand-red-hover);
+}
+
+.ep-film-list li a {
+    display: block;
+    color: var(--text-secondary);
+}
+
+.ep-film-list li a:hover {
+    color: var(--accent-gold);
+}
+
+/* Table link button */
+.table-link-btn {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--brand-red);
+    border: 1px solid rgba(229, 9, 20, 0.4);
+    background-color: rgba(229, 9, 20, 0.08);
+    padding: 0.25rem 0.7rem;
+    border-radius: var(--radius-pill);
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.table-link-btn:hover {
+    background-color: var(--brand-red);
+    color: #ffffff;
+}
+
+/* Popcorn link hint */
+.popcorn-link-hint {
+    font-size: 0.74rem;
+    font-weight: 600;
+    color: var(--text-muted);
+}
+
+.popcorn-card:hover .popcorn-link-hint {
+    color: var(--brand-red);
 }
 
 /* Footer */
