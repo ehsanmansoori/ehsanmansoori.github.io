@@ -1,21 +1,26 @@
 /**
  * Ehsan Mansoori portal
- * Client-side search + program filter over the statically rendered archive.
- * Cards already exist in the HTML (good for SEO and no-JS); this only shows/hides.
+ * Film library: bucket tabs, search, genre/country/decade filters and sorting.
+ * All cards are rendered in the HTML already (SEO + no-JS safe); this only
+ * shows/hides and reorders them.
  */
 (function () {
     'use strict';
 
-    const grid = document.getElementById('filmsGrid');
+    const grid = document.getElementById('libGrid');
     if (!grid) return;
 
-    const searchInput = document.getElementById('filmSearch');
-    const countLabel = document.getElementById('searchCount');
-    const emptyState = document.getElementById('emptyState');
-    const chips = Array.from(document.querySelectorAll('.filter-chip'));
-    const cards = Array.from(grid.querySelectorAll('.film-card'));
+    const tabs = Array.from(document.querySelectorAll('.lib-tab'));
+    const searchInput = document.getElementById('libSearch');
+    const genreSel = document.getElementById('libGenre');
+    const countrySel = document.getElementById('libCountry');
+    const decadeSel = document.getElementById('libDecade');
+    const sortSel = document.getElementById('libSort');
+    const countLabel = document.getElementById('libCount');
+    const emptyState = document.getElementById('libEmpty');
 
-    let activeGroup = 'all';
+    const cards = Array.from(grid.querySelectorAll('.lib-card'));
+    let activeBucket = 'all';
 
     const norm = (s) =>
         (s || '')
@@ -26,39 +31,82 @@
             .replace(/\s+/g, ' ')
             .trim();
 
-    const indexed = cards.map((el) => ({
+    const items = cards.map((el) => ({
         el,
-        group: el.dataset.group || 'all',
-        name: norm(el.dataset.name || el.textContent)
+        bucket: el.dataset.bucket || 'watch',
+        rating: parseFloat(el.dataset.rating || '0'),
+        year: parseInt(el.dataset.year || '0', 10),
+        genres: el.dataset.genres || '',
+        country: el.dataset.country || '',
+        title: norm(el.dataset.title || el.textContent)
     }));
 
-    function apply() {
+    function matches(item) {
+        if (activeBucket !== 'all' && item.bucket !== activeBucket) return false;
+
         const q = norm(searchInput ? searchInput.value : '');
-        let shown = 0;
+        if (q && !item.title.includes(q)) return false;
 
-        indexed.forEach((item) => {
-            const groupOk = activeGroup === 'all' || item.group === activeGroup;
-            const queryOk = !q || item.name.includes(q);
-            const visible = groupOk && queryOk;
-            item.el.hidden = !visible;
-            if (visible) shown += 1;
-        });
+        if (genreSel && genreSel.value !== 'all' && !item.genres.split('|').includes(genreSel.value)) return false;
+        if (countrySel && countrySel.value !== 'all' && !item.country.split('|').includes(countrySel.value)) return false;
 
-        if (countLabel) {
-            countLabel.textContent = shown === indexed.length
-                ? indexed.length.toLocaleString('fa-IR') + ' فیلم'
-                : shown.toLocaleString('fa-IR') + ' از ' + indexed.length.toLocaleString('fa-IR') + ' فیلم';
+        if (decadeSel && decadeSel.value !== 'all') {
+            const decade = parseInt(decadeSel.value, 10);
+            if (!(item.year >= decade && item.year < decade + 10)) return false;
         }
-        if (emptyState) emptyState.hidden = shown !== 0;
+        return true;
     }
 
-    chips.forEach((chip) => {
-        chip.addEventListener('click', () => {
-            chips.forEach((c) => c.classList.remove('active'));
-            chip.classList.add('active');
-            activeGroup = chip.dataset.group || 'all';
+    function sortValue(item, mode) {
+        switch (mode) {
+            case 'year-desc': return -item.year;
+            case 'year-asc': return item.year;
+            case 'title': return item.title;
+            default: return -item.rating;
+        }
+    }
+
+    function apply() {
+        const mode = sortSel ? sortSel.value : 'rating';
+        const visible = items.filter(matches);
+
+        items.forEach((i) => { i.el.hidden = true; });
+        visible
+            .slice()
+            .sort((a, b) => {
+                const va = sortValue(a, mode);
+                const vb = sortValue(b, mode);
+                if (typeof va === 'string') return va.localeCompare(vb, 'fa');
+                return va - vb;
+            })
+            .forEach((i) => {
+                i.el.hidden = false;
+                grid.appendChild(i.el);
+            });
+
+        if (countLabel) {
+            const total = items.length.toLocaleString('fa-IR');
+            const shown = visible.length.toLocaleString('fa-IR');
+            countLabel.textContent = visible.length === items.length ? total + ' فیلم' : shown + ' از ' + total + ' فیلم';
+        }
+        if (emptyState) emptyState.hidden = visible.length !== 0;
+    }
+
+    tabs.forEach((tab) => {
+        tab.addEventListener('click', () => {
+            tabs.forEach((t) => {
+                t.classList.remove('active');
+                t.setAttribute('aria-selected', 'false');
+            });
+            tab.classList.add('active');
+            tab.setAttribute('aria-selected', 'true');
+            activeBucket = tab.dataset.bucket || 'all';
             apply();
         });
+    });
+
+    [genreSel, countrySel, decadeSel, sortSel].forEach((sel) => {
+        if (sel) sel.addEventListener('change', apply);
     });
 
     if (searchInput) {

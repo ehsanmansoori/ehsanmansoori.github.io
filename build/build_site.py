@@ -124,36 +124,231 @@ def thumb(vid: str) -> str:
     return f"https://i.ytimg.com/vi/{vid}/hqdefault.jpg"
 
 
-# --------------------------------------------------------------------------- archive
-def build_archive(eps: list[dict]) -> list[dict]:
-    rows: list[dict] = []
+# --------------------------------------------------------------------------- render
+
+GENRE_FA = {
+    "Drama": "درام", "Thriller": "هیجان‌انگیز", "Comedy": "کمدی", "Crime": "جنایی",
+    "Romance": "عاشقانه", "Mystery": "معمایی", "Science Fiction": "علمی-تخیلی",
+    "Action": "اکشن", "Horror": "ترسناک", "History": "تاریخی", "War": "جنگی",
+    "Music": "موسیقی", "Adventure": "ماجراجویی", "Family": "خانوادگی",
+    "Animation": "انیمیشن", "Fantasy": "فانتزی", "Documentary": "مستند",
+    "Western": "وسترن", "TV Movie": "تله‌فیلم",
+}
+
+COUNTRY_FA = {
+    "United States of America": "آمریکا", "United Kingdom": "بریتانیا",
+    "South Korea": "کره جنوبی", "France": "فرانسه", "Germany": "آلمان",
+    "Canada": "کانادا", "Spain": "اسپانیا", "Italy": "ایتالیا", "China": "چین",
+    "Argentina": "آرژانتین", "Japan": "ژاپن", "Mexico": "مکزیک", "Switzerland": "سوئیس",
+    "Australia": "استرالیا", "Iran": "ایران", "Denmark": "دانمارک", "Norway": "نروژ",
+    "Sweden": "سوئد", "Netherlands": "هلند", "Belgium": "بلژیک", "India": "هند",
+    "Hong Kong": "هنگ‌کنگ", "Taiwan": "تایوان", "Poland": "لهستان", "Russia": "روسیه",
+    "Turkey": "ترکیه", "Brazil": "برزیل", "Ireland": "ایرلند", "New Zealand": "نیوزیلند",
+    "Austria": "اتریش", "Portugal": "پرتغال", "Finland": "فنلاند",
+    "Czech Republic": "چک", "Hungary": "مجارستان", "Greece": "یونان", "Ukraine": "اوکراین",
+}
+
+
+
+def asset_stamp() -> str:
+    """short hash of css+js so returning visitors never get a stale bundle"""
+    import hashlib
+
+    h = hashlib.sha1()
+    for rel in ("assets/css/style.css", "assets/js/main.js"):
+        p = ROOT / rel
+        if p.exists():
+            h.update(p.read_bytes())
+    return h.hexdigest()[:8]
+
+
+def load_films() -> dict:
+    path = BUILD / "films_meta.json"
+    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+
+
+def _lookup_meta(meta: dict, name: str) -> dict | None:
+    """Match a channel title to its TMDB record, tolerating Persian wrappers."""
+    key = name.lower().strip()
+    if key in meta:
+        return meta[key]
+    simple = re.sub(r"\s*\(.*\)\s*", "", name).lower().strip()
+    if simple in meta:
+        return meta[simple]
+    inner = re.findall(r"\((.*?)\)", name)
+    for part in inner:
+        if part.lower().strip() in meta:
+            return meta[part.lower().strip()]
+    return None
+
+
+def _poster(p: str) -> str:
+    """TMDB serves every size from one path, so downgrade to a list-friendly width."""
+    return p.replace("/w500/", "/w342/") if p else ""
+
+
+def build_library(eps: list[dict], meta: dict) -> list[dict]:
+    items: list[dict] = []
     seen: set[str] = set()
+
+    def add(name: str, bucket: str, source: str, href: str, chip: str, t: int | None):
+        m = _lookup_meta(meta, name) or {}
+        key = f"tmdb:{m['tmdb_id']}" if m.get("tmdb_id") else "name:" + name.lower()
+        if key in seen:
+            return
+        seen.add(key)
+        ok = bool(m.get("ok"))
+        fa_title = m.get("title_fa") if ok else None
+        # TMDB sometimes has no Persian translation and returns the original script
+        if not fa_title or not any("\u0600" <= ch <= "\u06FF" for ch in fa_title):
+            fa_title = m.get("title_en") or name
+        items.append(
+            {
+                "name": name,
+                "bucket": bucket,
+                "source": source,
+                "href": href,
+                "chip": chip,
+                "t": t,
+                "title": fa_title,
+                "title_en": m.get("title_en") or name,
+                "year": m.get("year"),
+                "runtime": m.get("runtime"),
+                "poster": _poster(m.get("poster") or ""),
+                "overview": m.get("overview") or "",
+                "genres": [GENRE_FA.get(g, g) for g in (m.get("genres") or [])],
+                "raw_genres": m.get("genres") or [],
+                "director": m.get("director") or [],
+                "cast": m.get("cast") or [],
+                "country": [COUNTRY_FA.get(c, c) for c in (m.get("country") or [])],
+                "raw_country": m.get("country") or [],
+                "rating": m.get("rating") or 0,
+                "votes": m.get("votes") or 0,
+                "imdb": m.get("imdb"),
+                "tmdb_url": m.get("tmdb_url"),
+                "ok": ok,
+            }
+        )
+
     for ep in eps:
         for f in ep["films"]:
-            key = f["name"].lower()
-            if key in seen:
-                continue
-            seen.add(key)
-            rows.append(
-                {
-                    "name": f["name"],
-                    "ep": episode_label(ep),
-                    "group": episode_group(ep),
-                    "ts": f["ts"],
-                    "vid": ep["vid"],
-                    "t": f["t"],
-                }
-            )
+            add(f["name"], "watch", "سری فیلم‌ها", yt(ep["vid"], f["t"]), episode_label(ep), f["t"])
     for b in BILIT:
-        rows.append({"name": b["fa"], "ep": "بلیت", "group": "bilit", "ts": b["ts"], "vid": BILIT_VID, "t": b["t"]})
-    for p in POPCORN:
-        rows.append({"name": f"{p['fa']} ({p['en']})", "ep": f"پاپ‌کورن {fa(p['ep'])}", "group": "popcorn",
-                     "ts": "", "vid": p["code"], "t": None, "reel": True})
-    return rows
+        add(b["fa"], "skip", "بلیت", yt(BILIT_VID, b["t"]), f'دقیقه {b["ts"]}', b["t"])
+    for pc in POPCORN:
+        add(f'{pc["fa"]} ({pc["en"]})', "watch", "پاپ‌کورن",
+            f'https://www.instagram.com/reel/{pc["code"]}/', f'پاپ‌کورن {fa(pc["ep"])}', None)
+
+    items.sort(key=lambda i: (-(i["rating"] or 0), i["year"] or 0))
+    return items
 
 
-# --------------------------------------------------------------------------- render
-def render(eps: list[dict], archive: list[dict]) -> str:
+def render_library(items: list[dict]) -> str:
+    genres = sorted({g for i in items for g in i["genres"]})
+    countries = sorted({c for i in items for c in i["country"]})
+    decades = sorted({(i["year"] // 10) * 10 for i in items if i["year"]}, reverse=True)
+    watch = sum(1 for i in items if i["bucket"] == "watch")
+    skip = sum(1 for i in items if i["bucket"] == "skip")
+
+    genre_opts = "".join(f'<option value="{g}">{g}</option>' for g in genres)
+    country_opts = "".join(f'<option value="{c}">{c}</option>' for c in countries)
+    decade_opts = "".join(f'<option value="{d}">{fa(str(d))}s</option>' for d in decades)
+
+    cards = []
+    for i in items:
+        stars = f'{i["rating"]:.1f}' if i["rating"] else ""
+        stars_fa = fa(stars) if stars else ""
+        meta_bits = []
+        if i["year"]:
+            meta_bits.append(fa(i["year"]))
+        if i["runtime"]:
+            meta_bits.append(f'{fa(i["runtime"])} دقیقه')
+        if i["genres"]:
+            meta_bits.append("، ".join(i["genres"][:2]))
+        if i["country"]:
+            meta_bits.append(i["country"][0])
+        meta_line = " • ".join(meta_bits)
+
+        poster = (
+            f'<img src="{i["poster"]}" alt="پوستر {i["title"]}" width="342" height="513" loading="lazy" decoding="async">'
+            if i["poster"] else '<span class="lib-noimg">بدون پوستر</span>'
+        )
+        badge = "ببینیم" if i["bucket"] == "watch" else "نبینیم"
+        rating_html = f'<span class="lib-rate">{stars_fa}</span>' if stars_fa and i["rating"] else ""
+        extra_links = []
+        if i["imdb"]:
+            extra_links.append(f'<a href="https://www.imdb.com/title/{i["imdb"]}/" target="_blank" rel="noopener">IMDb</a>')
+        if i["tmdb_url"]:
+            extra_links.append(f'<a href="{i["tmdb_url"]}" target="_blank" rel="noopener">TMDB</a>')
+        cast_html = (
+            f'<p class="lib-line"><b>بازیگران:</b> {"، ".join(i["cast"][:3])}</p>' if i["cast"] else ""
+        )
+        dir_html = f'<p class="lib-line"><b>کارگردان:</b> {"، ".join(i["director"])}</p>' if i["director"] else ""
+        overview = (
+            f'<p class="lib-overview">{i["overview"]}</p>' if i["overview"] else ""
+        )
+        cards.append(f'''<article class="lib-card" data-bucket="{i["bucket"]}" data-rating="{i["rating"]}"
+  data-year="{i["year"] or 0}" data-genres="{"|".join(i["raw_genres"])}" data-country="{"|".join(i["raw_country"])}"
+  data-title="{i["title"]} {i["title_en"]} {" ".join(i["director"])} {" ".join(i["cast"])}">
+  <div class="lib-poster">
+    {poster}
+    <span class="lib-badge {i["bucket"]}">{badge}</span>
+    {rating_html}
+  </div>
+  <div class="lib-body">
+    <h4 class="lib-title">{i["title"]}</h4>
+    <p class="lib-en" dir="ltr">{i["title_en"]}</p>
+    <p class="lib-meta">{meta_line}</p>
+    {dir_html}
+    {cast_html}
+    {overview}
+    <div class="lib-links">
+      <a class="lib-watch" href="{i["href"]}" target="_blank" rel="noopener">تحلیل احسان | {i["chip"]}</a>
+      {"".join(extra_links)}
+    </div>
+  </div>
+</article>''')
+
+    return f'''<section id="all-movies" class="section alt-bg">
+  <div class="container">
+    <div class="section-head">
+      <h2 class="section-title">کتابخانه فیلم‌ها</h2>
+      <p class="section-subtitle">{fa(len(items))} فیلم با پوستر و اطلاعات کامل از TMDB، هر کدام وصل به تحلیل احسان منصوری</p>
+    </div>
+
+    <div class="lib-tabs" role="tablist" aria-label="دسته‌بندی">
+      <button class="lib-tab active" data-bucket="all" role="tab" aria-selected="true">همه ({fa(len(items))})</button>
+      <button class="lib-tab" data-bucket="watch" role="tab" aria-selected="false">چی ببینیم ({fa(watch)})</button>
+      <button class="lib-tab" data-bucket="skip" role="tab" aria-selected="false">چی نبینیم ({fa(skip)})</button>
+    </div>
+    <p class="lib-note">«چی ببینیم» فیلم‌هایی است که احسان منصوری در سری معرفی کرده و در پاپ‌کورن توصیه کرده. «چی نبینیم» فیلم‌های اکران روز است که در برنامه بلیت نقد شده‌اند؛ برچسب این دسته به معنی توصیه نبودن است، نه حکم قطعی به ندیدن.</p>
+
+    <div class="lib-controls">
+      <input type="search" id="libSearch" class="search-input" placeholder="جستجوی نام فیلم یا بازیگر…" aria-label="جستجوی فیلم" autocomplete="off">
+      <select id="libGenre" class="lib-select" aria-label="ژانر"><option value="all">همه ژانرها</option>{genre_opts}</select>
+      <select id="libCountry" class="lib-select" aria-label="کشور"><option value="all">همه کشورها</option>{country_opts}</select>
+      <select id="libDecade" class="lib-select" aria-label="دهه"><option value="all">همه دهه‌ها</option>{decade_opts}</select>
+      <select id="libSort" class="lib-select" aria-label="ترتیب">
+        <option value="rating">بیشترین امتیاز</option>
+        <option value="year-desc">جدیدترین</option>
+        <option value="year-asc">قدیمی‌ترین</option>
+        <option value="title">الفبایی</option>
+      </select>
+      <span class="search-count" id="libCount"></span>
+    </div>
+
+    <div class="lib-grid" id="libGrid">
+{"".join(cards)}
+    </div>
+    <p class="empty-state" id="libEmpty" hidden>فیلمی با این فیلترها پیدا نشد.</p>
+    <p class="lib-credit">اطلاعات و پوسترها از <a href="https://www.themoviedb.org/" target="_blank" rel="noopener">TMDB</a>. این سایت توسط TMDB تأیید نشده و صرفاً از API آن استفاده می‌کند.</p>
+  </div>
+</section>
+
+'''
+
+
+def render(eps: list[dict]) -> str:
     ep_cards = []
     for ep in eps:
         if ep["films"]:
@@ -183,19 +378,6 @@ def render(eps: list[dict], archive: list[dict]) -> str:
 </article>'''
         )
 
-    film_cards = []
-    for r in archive:
-        href = f"https://www.instagram.com/reel/{r['vid']}/" if r.get("reel") else yt(r["vid"], r["t"])
-        timechip = f'<span class="film-time">{r["ts"]}</span>' if r["ts"] else ""
-        film_cards.append(
-            f'''<a class="film-card" href="{href}" target="_blank" rel="noopener"
-   data-group="{r["group"]}" data-name="{r["name"].lower()}">
-  <div class="film-chip"><span class="film-ep">{r["ep"]}</span>{timechip}</div>
-  <h4>{r["name"]}</h4>
-  <span class="film-go">تماشا &larr;</span>
-</a>'''
-        )
-
     popcorn_cards = "\n".join(
         f'''<a class="popcorn-card" href="https://www.instagram.com/reel/{p["code"]}/" target="_blank" rel="noopener">
   <div class="popcorn-top"><span class="popcorn-ep">پاپ‌کورن {fa(p["ep"])}</span>
@@ -218,7 +400,10 @@ def render(eps: list[dict], archive: list[dict]) -> str:
         for b in BILIT
     )
 
-    films_total = len(archive)
+    STAMP = asset_stamp()
+    library = build_library(eps, load_films())
+    library_section = render_library(library)
+    films_total = len(library)
     eps_with_list = sum(1 for e in eps if e["films"])
 
     jsonld = json.dumps(
@@ -289,7 +474,7 @@ def render(eps: list[dict], archive: list[dict]) -> str:
 <link rel="icon" href="assets/images/favicon-192.png" sizes="192x192" type="image/png">
 <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
 <link rel="manifest" href="manifest.json">
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/style.css?v={STAMP}">
 <script type="application/ld+json">
 {jsonld}
 </script>
@@ -370,30 +555,7 @@ def render(eps: list[dict], archive: list[dict]) -> str:
   </div>
 </section>
 
-<section id="all-movies" class="section alt-bg">
-  <div class="container">
-    <div class="section-head">
-      <h2 class="section-title">آرشیو {fa(films_total)} فیلم</h2>
-      <p class="section-subtitle">جستجو کنید یا بر اساس برنامه فیلتر کنید</p>
-    </div>
-    <div class="search-row">
-      <input type="search" id="filmSearch" class="search-input" placeholder="نام فیلم را بنویسید…" aria-label="جستجوی فیلم" autocomplete="off">
-      <span class="search-count" id="searchCount"></span>
-    </div>
-    <div class="filter-controls" role="group" aria-label="فیلتر برنامه">
-      <button class="filter-chip active" data-group="all">همه</button>
-      <button class="filter-chip" data-group="early">قبل از مرگ (۱ تا ۷)</button>
-      <button class="filter-chip" data-group="late">ادامه سری (۸ تا ۲۲)</button>
-      <button class="filter-chip" data-group="special">ویژه</button>
-      <button class="filter-chip" data-group="bilit">بلیت</button>
-      <button class="filter-chip" data-group="popcorn">پاپ‌کورن</button>
-    </div>
-    <div class="films-grid" id="filmsGrid">
-{chr(10).join(film_cards)}
-    </div>
-    <p class="empty-state" id="emptyState" hidden>فیلمی با این نام پیدا نشد.</p>
-  </div>
-</section>
+{library_section}
 
 <section id="popcorn" class="section">
   <div class="container">
@@ -466,7 +628,7 @@ def render(eps: list[dict], archive: list[dict]) -> str:
   </div>
 </footer>
 
-<script src="assets/js/main.js"></script>
+<script src="assets/js/main.js?v={STAMP}"></script>
 </body>
 </html>
 '''
@@ -477,6 +639,7 @@ LAST_UPDATE = "آبان ۱۴۰۵"
 
 # --------------------------------------------------------------------------- side files
 def write_side_files(eps: list[dict]) -> None:
+    stamp = asset_stamp()
     (ROOT / "robots.txt").write_text(
         "User-agent: *\nAllow: /\n\nSitemap: " + SITE + "/sitemap.xml\n", encoding="utf-8"
     )
@@ -499,7 +662,7 @@ def write_side_files(eps: list[dict]) -> None:
 <title>صفحه پیدا نشد | {PERSON_FA}</title>
 <meta name="robots" content="noindex">
 <link rel="icon" href="/assets/images/favicon-32.png" sizes="32x32" type="image/png">
-<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="/assets/css/style.css?v={stamp}">
 </head>
 <body>
 <main class="section notfound">
@@ -595,13 +758,12 @@ def write_images() -> None:
 
 def main() -> None:
     eps = load_episodes()
-    archive = build_archive(eps)
-    html = render(eps, archive)
+    html = render(eps)
     (ROOT / "index.html").write_text(html, encoding="utf-8")
     write_side_files(eps)
     write_images()
     films_with_list = sum(len(e["films"]) for e in eps)
-    print(f"episodes: {len(eps)} | chapter rows: {films_with_list} | archive cards: {len(archive)}")
+    print(f"episodes: {len(eps)} | chapter rows: {films_with_list}")
     print("wrote index.html, robots.txt, sitemap.xml, 404.html, manifest.json, images")
 
 

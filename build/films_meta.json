@@ -1,0 +1,3129 @@
+{
+ "wild tales": {
+  "name": "Wild tales",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 265195,
+  "title_fa": "Relatos salvajes",
+  "title_en": "Wild Tales",
+  "year": 2014,
+  "poster": "https://image.tmdb.org/t/p/w500/vimbRR5XdkMj7CqnzVN92Cla8jN.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/vimbRR5XdkMj7CqnzVN92Cla8jN.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/dHnki2Dh6lbOtfksrh8H5lg08f5.jpg",
+  "overview": "Injustice and the demands of the world can cause stress for many people. Some of them, however, explode. This includes a waitress serving a grouchy loan shark, an altercation between two motorists, an ill-fated wedding reception, and a wealthy businessman who tries to buy his family out of trouble.",
+  "runtime": 122,
+  "genres": [
+   "Drama",
+   "Thriller",
+   "Comedy"
+  ],
+  "director": [
+   "Damián Szifron"
+  ],
+  "cast": [
+   "Ricardo Darín",
+   "Leonardo Sbaraglia",
+   "Érica Rivas",
+   "Oscar Martínez"
+  ],
+  "country": [
+   "Argentina",
+   "Spain"
+  ],
+  "rating": 7.9,
+  "votes": 3942,
+  "imdb": "tt3011894",
+  "tmdb_url": "https://www.themoviedb.org/movie/265195"
+ },
+ "green book": {
+  "name": "Green book",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 490132,
+  "title_fa": "کتاب سبز",
+  "title_en": "Green Book",
+  "year": 2018,
+  "poster": "https://image.tmdb.org/t/p/w500/z3mcA82RW0XgwQ3zao7EFqyOIqm.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/z3mcA82RW0XgwQ3zao7EFqyOIqm.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/5En0fmDagt3Pk8d7P3uTwfeQceg.jpg",
+  "overview": "طی دهه ۱۹۶۰ میلادی، یک راننده آمریکایی ایتالیایی‌تبار از طبقه کارگر با یک پیانیست آمریکایی آفریقایی‌تبار، به نواحی جنوبی آمریکا سفر می‌کند و...",
+  "runtime": 130,
+  "genres": [
+   "Drama",
+   "Comedy",
+   "History"
+  ],
+  "director": [
+   "Peter Farrelly"
+  ],
+  "cast": [
+   "ویگو مورتنسن",
+   "ماهرشالا علی",
+   "لیندا کاردلیانی",
+   "سباستین مانیسکالو"
+  ],
+  "country": [
+   "United States of America"
+  ],
+  "rating": 8.2,
+  "votes": 13490,
+  "imdb": "tt6966692",
+  "tmdb_url": "https://www.themoviedb.org/movie/490132"
+ },
+ "oldboy": {
+  "name": "Oldboy",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 670,
+  "title_fa": "دوست قدیمی",
+  "title_en": "Oldboy",
+  "year": 2003,
+  "poster": "https://image.tmdb.org/t/p/w500/xpa9ybm6tYGna5LseqSXvKpSSJn.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/xpa9ybm6tYGna5LseqSXvKpSSJn.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/rwf5SUTiEsmfkXAgy15R0UtJUtv.jpg",
+  "overview": "\"اُ دای سو\" مرد میان سالی است که در یک روز بارانی ربوده می‌شود و در مکانی به مدت ۱۵ سال زندانی می‌شود. پس از آزاد شدن تصمیم می‌گیرد که دلیل ربوده شدنش را کشف کند و از شخصی که این کار را کرده است انتقام بگیرد و... نام این فیلم در زبان فارسی به اشتباه \"پیر پسر\" و \"پسر پیر\" ترجمه شده که عنوان درست آن \"رفیق قدیمی\" و یا \"همکلاسی قدیمی\" است.",
+  "runtime": 120,
+  "genres": [
+   "Thriller",
+   "Mystery"
+  ],
+  "director": [
+   "박찬욱"
+  ],
+  "cast": [
+   "چوی مین سیک",
+   "유지태",
+   "강혜정",
+   "کیم بیونگ اوک"
+  ],
+  "country": [
+   "South Korea"
+  ],
+  "rating": 8.2,
+  "votes": 10416,
+  "imdb": "tt0364569",
+  "tmdb_url": "https://www.themoviedb.org/movie/670"
+ },
+ "drive": {
+  "name": "Drive",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 64690,
+  "title_fa": "رانندگی",
+  "title_en": "Drive",
+  "year": 2011,
+  "poster": "https://image.tmdb.org/t/p/w500/602vevIURmpDfzbnv5Ubi6wIkQm.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/602vevIURmpDfzbnv5Ubi6wIkQm.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/hoyAALgfmjMEK7O1wZ4r8wT91RP.jpg",
+  "overview": "یک راننده بدلکار پروژه های سینمایی هالیوود، که شب هنگام برای خلافکاران رانندگی می کند، در جریان یکی از این ماموریت هایش همه چیز به درستی پیش نمی رود و بزودی در میابد که همه به دنبال او هستند...",
+  "runtime": 100,
+  "genres": [
+   "Drama",
+   "Thriller",
+   "Crime"
+  ],
+  "director": [
+   "نیکولاس ویندینگ رفن"
+  ],
+  "cast": [
+   "رایان گاسلینگ",
+   "کری مولیگان",
+   "برایان کرانستون",
+   "آلبرت بروکس"
+  ],
+  "country": [
+   "United States of America"
+  ],
+  "rating": 7.6,
+  "votes": 14249,
+  "imdb": "tt0780504",
+  "tmdb_url": "https://www.themoviedb.org/movie/64690"
+ },
+ "nocturnal animals": {
+  "name": "Nocturnal Animals",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 340666,
+  "title_fa": "حیوانات شبگرد",
+  "title_en": "Nocturnal Animals",
+  "year": 2016,
+  "poster": "https://image.tmdb.org/t/p/w500/mdLDgQBD0va09npSQX5Zgo2evXM.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/mdLDgQBD0va09npSQX5Zgo2evXM.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/5d6m8CIBQcHeiwr6R5ou4wxO9Vn.jpg",
+  "overview": "Susan Morrow receives a book manuscript from her ex-husband – a man she left 20 years earlier – asking for her opinion of his writing. As she reads, she is drawn into the fictional life of Tony Hastings, a mathematics professor whose family vacation turns violent.",
+  "runtime": 116,
+  "genres": [
+   "Drama",
+   "Thriller"
+  ],
+  "director": [
+   "تام فورد"
+  ],
+  "cast": [
+   "ایمی آدامز",
+   "جیک جیلنهال",
+   "مایکل شنون",
+   "آرون تیلور-جانسون"
+  ],
+  "country": [
+   "United States of America"
+  ],
+  "rating": 7.4,
+  "votes": 8589,
+  "imdb": "tt4550098",
+  "tmdb_url": "https://www.themoviedb.org/movie/340666"
+ },
+ "locke": {
+  "name": "Locke",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 210479,
+  "title_fa": "لاک",
+  "title_en": "Locke",
+  "year": 2014,
+  "poster": "https://image.tmdb.org/t/p/w500/wLKTWIdhp1zNt3f5tUPzLVBvgZT.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/wLKTWIdhp1zNt3f5tUPzLVBvgZT.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/9LFk66Se0T3Uw2JPupYxAc6F2Gq.jpg",
+  "overview": "مردی خانواده دوست به نام ایوان لاک که در زمینه مدیریت پروژه های ساختمانی فعالیت می کند، شب قبل از بزرگترین پروژه کاری‌اش، تماس تلفنی مهمی را دریافت می کند و مجبور به اتخاذ تصمیمی چالش برانگیز می شود که...",
+  "runtime": 85,
+  "genres": [
+   "Drama",
+   "Thriller"
+  ],
+  "director": [
+   "استیون نایت"
+  ],
+  "cast": [
+   "تام هاردی",
+   "Ruth Wilson",
+   "اندرو اسکات",
+   "الیویا کلمن"
+  ],
+  "country": [
+   "United Kingdom",
+   "United States of America"
+  ],
+  "rating": 6.9,
+  "votes": 3098,
+  "imdb": "tt2692904",
+  "tmdb_url": "https://www.themoviedb.org/movie/210479"
+ },
+ "joker": {
+  "name": "Joker",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 475557,
+  "title_fa": "جوکر",
+  "title_en": "Joker",
+  "year": 2019,
+  "poster": "https://image.tmdb.org/t/p/w500/2H1gUMv5shIZdkQ6NlQVF4Ps9x7.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/2H1gUMv5shIZdkQ6NlQVF4Ps9x7.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/rlay2M5QYvi6igbGcFjq8jxeusY.jpg",
+  "overview": "داستان «جوکر» در دهه‌ی ۱۹۸۰ میلادی روی می‌دهد و زندگی «آرتور فلک» استند-آپ کمدین شکست‌خورده‌ای را روایت می‌کند که با طرد شدن از سوی جامعه به دنیای زیرزمینی جنایت‌ در شهر گاتهام گرایش پیدا می‌کند.",
+  "runtime": 122,
+  "genres": [
+   "Crime",
+   "Thriller",
+   "Drama"
+  ],
+  "director": [
+   "تاد فیلیپس"
+  ],
+  "cast": [
+   "واکین فینیکس",
+   "رابرت دنیرو",
+   "زازی بیتز",
+   "فرانسیس کونروی"
+  ],
+  "country": [
+   "Canada",
+   "United States of America"
+  ],
+  "rating": 8.1,
+  "votes": 28698,
+  "imdb": "tt7286456",
+  "tmdb_url": "https://www.themoviedb.org/movie/475557"
+ },
+ "parasite": {
+  "name": "Parasite",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 496243,
+  "title_fa": "انگل",
+  "title_en": "Parasite",
+  "year": 2019,
+  "poster": "https://image.tmdb.org/t/p/w500/9FuoiB8dAvzsuiinHRUXQ50sg2U.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/9FuoiB8dAvzsuiinHRUXQ50sg2U.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/TU9NIjwzjoKPwQHoHshkFcQUCG.jpg",
+  "overview": "داستان فیلم در مورد اعضای بیکار خانواده‌ی بی‌پولی است که به یک خانواده‌ی ثروتمند تعدی می‌کنند اما در مخمصه می‌افتند.",
+  "runtime": 133,
+  "genres": [
+   "Comedy",
+   "Thriller",
+   "Drama"
+  ],
+  "director": [
+   "بونگ جون هو"
+  ],
+  "cast": [
+   "سونگ کانگ هو",
+   "لی سون کیون",
+   "چو یو جونگ",
+   "چوی وو شیک"
+  ],
+  "country": [
+   "South Korea"
+  ],
+  "rating": 8.5,
+  "votes": 21702,
+  "imdb": "tt6751668",
+  "tmdb_url": "https://www.themoviedb.org/movie/496243"
+ },
+ "1917": {
+  "name": "1917",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 530915,
+  "title_fa": "۱۹۱۷",
+  "title_en": "1917",
+  "year": 2019,
+  "poster": "https://image.tmdb.org/t/p/w500/dOI2gHzsmdfRDQpmDzCUCjuQLLk.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/dOI2gHzsmdfRDQpmDzCUCjuQLLk.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/2lBOQK06tltt8SQaswgb8d657Mv.jpg",
+  "overview": "دو سرباز جوان بریتانیایی مأموریت دارند از مناطق تحت نفوذ دشمن عبور کرده و پیام توقف حمله‌ای را منتقل کنند که ممکن است به مرگ هزاران سرباز منجر شود.",
+  "runtime": 119,
+  "genres": [
+   "War",
+   "Drama",
+   "History"
+  ],
+  "director": [
+   "Sam Mendes"
+  ],
+  "cast": [
+   "جرج مکای",
+   "دین-چارلز چپمن",
+   "مارک استرانگ",
+   "اندرو اسکات"
+  ],
+  "country": [
+   "United States of America",
+   "United Kingdom"
+  ],
+  "rating": 8.0,
+  "votes": 14122,
+  "imdb": "tt8579674",
+  "tmdb_url": "https://www.themoviedb.org/movie/530915"
+ },
+ "shawshank redemption": {
+  "name": "Shawshank Redemption",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 278,
+  "title_fa": "رستگاری در شاوشنک",
+  "title_en": "The Shawshank Redemption",
+  "year": 1994,
+  "poster": "https://image.tmdb.org/t/p/w500/wr964aRv9tl6V0afR3crrQPi57i.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/wr964aRv9tl6V0afR3crrQPi57i.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/pNjh59JSxChQktamG3LMp9ZoQzp.jpg",
+  "overview": "دو مرد زندانی عهد می بندند که پس از چند سال، از طریق رفتار مناسب با عرف، به آرامش و رهایی نهایی دست یابند.",
+  "runtime": 142,
+  "genres": [
+   "Drama",
+   "Crime"
+  ],
+  "director": [
+   "فرانک دارابونت"
+  ],
+  "cast": [
+   "تیم رابینز",
+   "مورگان فریمن",
+   "باب گانتون",
+   "ویلیام سدلر"
+  ],
+  "country": [
+   "United States of America"
+  ],
+  "rating": 8.7,
+  "votes": 31844,
+  "imdb": "tt0111161",
+  "tmdb_url": "https://www.themoviedb.org/movie/278"
+ },
+ "collini case": {
+  "name": "Collini Case",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 570661,
+  "title_fa": "Der Fall Collini",
+  "title_en": "Der Fall Collini",
+  "year": 2019,
+  "poster": "https://image.tmdb.org/t/p/w500/9E4XozYUAcxuWMn5dcjGSXwVuD8.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/9E4XozYUAcxuWMn5dcjGSXwVuD8.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/ooVOGpJA40wWyohGUQ1T7ibrGRR.jpg",
+  "overview": "A young lawyer stumbles upon a vast conspiracy while investigating a brutal murder case.",
+  "runtime": 118,
+  "genres": [
+   "Drama",
+   "Thriller"
+  ],
+  "director": [
+   "Marco Kreuzpaintner"
+  ],
+  "cast": [
+   "الیاس مبارک",
+   "Heiner Lauterbach",
+   "Alexandra Maria Lara",
+   "Jannis Niewöhner"
+  ],
+  "country": [
+   "Germany"
+  ],
+  "rating": 7.4,
+  "votes": 453,
+  "imdb": "tt8739752",
+  "tmdb_url": "https://www.themoviedb.org/movie/570661"
+ },
+ "knives out": {
+  "name": "Knives Out",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 546554,
+  "title_fa": "چاقوکشی",
+  "title_en": "Knives Out",
+  "year": 2019,
+  "poster": "https://image.tmdb.org/t/p/w500/hWY9rJPoZPgHQ5KYR1xM8ybHrQp.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/hWY9rJPoZPgHQ5KYR1xM8ybHrQp.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/4HWAQu28e2yaWrtupFPGFkdNU7V.jpg",
+  "overview": "یک کارآگاه در مورد مرگ یک پدرسالار خانواده ای عجیب و غریب و مبارز تحقیق می کند.",
+  "runtime": 131,
+  "genres": [
+   "Comedy",
+   "Crime",
+   "Mystery"
+  ],
+  "director": [
+   "ریان جانسون"
+  ],
+  "cast": [
+   "دنیل کریگ",
+   "کریس ایوانز",
+   "آنا دی آرماس",
+   "جیمی لی کرتیس"
+  ],
+  "country": [
+   "United States of America"
+  ],
+  "rating": 7.8,
+  "votes": 14801,
+  "imdb": "tt8946378",
+  "tmdb_url": "https://www.themoviedb.org/movie/546554"
+ },
+ "gone girl": {
+  "name": "Gone Girl",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 210577,
+  "title_fa": "دختر گمشده",
+  "title_en": "Gone Girl",
+  "year": 2014,
+  "poster": "https://image.tmdb.org/t/p/w500/v12wNgdU4yfJ2bJQoDudmh0W7ke.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/v12wNgdU4yfJ2bJQoDudmh0W7ke.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/iWak7wT0j6ycCc8lKr4NBz9c7n5.jpg",
+  "overview": "داستان این کتاب و فیلم در مورد مردی است که همسرش را در پنجمین سالگرد ازدواجشان گم می‌کند اما تمام انگشت‌ها به سمت او نشانه می‌رود به طوری که لقب قاتل زنان به وی داده می‌شود...",
+  "runtime": 149,
+  "genres": [
+   "Mystery",
+   "Thriller",
+   "Drama"
+  ],
+  "director": [
+   "دیوید فینچر"
+  ],
+  "cast": [
+   "بن افلک",
+   "رزاماند پایک",
+   "نیل پاتریک هریس",
+   "تایلر پری"
+  ],
+  "country": [
+   "United States of America"
+  ],
+  "rating": 7.9,
+  "votes": 20681,
+  "imdb": "tt2267998",
+  "tmdb_url": "https://www.themoviedb.org/movie/210577"
+ },
+ "the hangover": {
+  "name": "The Hangover",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 18785,
+  "title_fa": "خماری",
+  "title_en": "The Hangover",
+  "year": 2009,
+  "poster": "https://image.tmdb.org/t/p/w500/A0uS9rHR56FeBtpjVki16M5xxSW.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/A0uS9rHR56FeBtpjVki16M5xxSW.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/iuRVt8tFiXDPGgzavhuSa3QHRxD.jpg",
+  "overview": "این فیلم ماجراهای پیامد یک شب بدمستی سه ساقدوش و یک داماد است در لاس‌وگاس، دو روز پیش از عروسی. صبح روز بعد وقتی در اتاق نیمه ویران هتل بیدار می‌شوند یک ببر در حمام است و دندان یکی شکسته و از همه مهم‌تر، داماد گم شده است و یک ماشین پلیس در پارکینگ هتل به نام آنها پارک شده...",
+  "runtime": 100,
+  "genres": [
+   "Comedy"
+  ],
+  "director": [
+   "تاد فیلیپس"
+  ],
+  "cast": [
+   "بردلی کوپر",
+   "اد هلمس",
+   "زک گالیفیاناکیس",
+   "Justin Bartha"
+  ],
+  "country": [
+   "United States of America"
+  ],
+  "rating": 7.3,
+  "votes": 18752,
+  "imdb": "tt1119646",
+  "tmdb_url": "https://www.themoviedb.org/movie/18785"
+ },
+ "devils advocate": {
+  "name": "Devils Advocate",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 1813,
+  "title_fa": "وکیل مدافع شیطان",
+  "title_en": "The Devil's Advocate",
+  "year": 1997,
+  "poster": "https://image.tmdb.org/t/p/w500/5ZzBGpxy55OQzHxKVY11IpY6a0o.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/5ZzBGpxy55OQzHxKVY11IpY6a0o.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/bFRyrzb16IqM8hTmxT0z1nCaqhr.jpg",
+  "overview": "فیلم بر اساس کتابی از آندرو نیدرمن ساخته شده است. کوین لومکس ( با بازی کیانو ریوز ) یک وکیل مدافع جوان، بی باک و شکست ناپذیر ساکن شهری کوچک در فلوریدا است. او توسط قدرتمندترین شرکت حقوقی دنیا در نیویورک استخدام می شود و با وجود مخالفت مادرش که نیویورک را شهری پر از فساد می داند پیشنهاد کار را پذیرفته و بهمراه همسرش به نیویورک می رود. اما بزودی همسرش شروع به دلتنگی می کند و اسرار دارد که برگردند اما کوین در شغل جدیدش غرق شده و توجه کمتری به همسرش دارد. همسرش پس از مدتی اشباحی اهریمنی را در اطراف خود می بیند و رفته رفته دچار جنون می شود. او روزی ادعا می کند که رئیس کوین، جان میلتون ( با بازی آل پاچینو ) به او تجاوز کرده است اما در همان روز میلتون بهمراه کوین در دادگاه بوده است.....",
+  "runtime": 144,
+  "genres": [
+   "Horror",
+   "Drama",
+   "Mystery"
+  ],
+  "director": [
+   "Taylor Hackford"
+  ],
+  "cast": [
+   "کیانو ریوز",
+   "آل پاچینو",
+   "شارلیز ترون",
+   "Jeffrey Jones"
+  ],
+  "country": [
+   "Germany",
+   "United States of America"
+  ],
+  "rating": 7.5,
+  "votes": 7195,
+  "imdb": "tt0118971",
+  "tmdb_url": "https://www.themoviedb.org/movie/1813"
+ },
+ "the lives of others": {
+  "name": "The Lives Of Others",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 582,
+  "title_fa": "Das Leben der Anderen",
+  "title_en": "The Lives of Others",
+  "year": 2006,
+  "poster": "https://image.tmdb.org/t/p/w500/imRPNMb3k6Mu6Gzioo5RRxtvQl8.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/imRPNMb3k6Mu6Gzioo5RRxtvQl8.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/g11nKgir3nIhlG2gIDWIvJeR4fz.jpg",
+  "overview": "In 1984 East Berlin, dedicated Stasi officer Gerd Wiesler begins spying on a famous playwright and his actress-lover Christa-Maria. Wiesler becomes unexpectedly sympathetic to the couple, and faces conflicting loyalties when his superior takes a liking to Christa-Maria.",
+  "runtime": 137,
+  "genres": [
+   "Drama",
+   "Thriller"
+  ],
+  "director": [
+   "فلوریان هنکل فون دونرسمارک"
+  ],
+  "cast": [
+   "Martina Gedeck",
+   "Ulrich Mühe",
+   "Sebastian Koch",
+   "اولریش توکور"
+  ],
+  "country": [
+   "Germany",
+   "France"
+  ],
+  "rating": 8.0,
+  "votes": 4359,
+  "imdb": "tt0405094",
+  "tmdb_url": "https://www.themoviedb.org/movie/582"
+ },
+ "the gentelmen": {
+  "name": "The Gentelmen",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 522627,
+  "title_fa": "آقایان",
+  "title_en": "The Gentlemen",
+  "year": 2020,
+  "poster": "https://image.tmdb.org/t/p/w500/jtrhTYB7xSrJxR1vusu99nvnZ1g.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/jtrhTYB7xSrJxR1vusu99nvnZ1g.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/tintsaQ0WLzZsTMkTiqtMB3rfc8.jpg",
+  "overview": "آقایان ، فیلمی اکشن و جنایی محصول ۲۰۲۰ به کارگردانی گای ریچی می‌باشد. این فیلم داستان یک فروشنده‌ی قدرتمند بریتانیایی را به تصویر می‌کشد که در تلاش است تا امپراطوری فروشندگی سودآورش را به تعدادی میلیادر اهل اوکلاهما بفروشد. اما…",
+  "runtime": 113,
+  "genres": [
+   "Comedy",
+   "Crime"
+  ],
+  "director": [
+   "گای ریچی"
+  ],
+  "cast": [
+   "متیو مک‌کانهی",
+   "چارلی هونام",
+   "میشل داکری",
+   "جرمی استرانگ"
+  ],
+  "country": [
+   "United Kingdom",
+   "United States of America"
+  ],
+  "rating": 7.7,
+  "votes": 7049,
+  "imdb": "tt8367814",
+  "tmdb_url": "https://www.themoviedb.org/movie/522627"
+ },
+ "3iron": {
+  "name": "3iron",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 1280,
+  "title_fa": "خانه خالی",
+  "title_en": "3-Iron",
+  "year": 2004,
+  "poster": "https://image.tmdb.org/t/p/w500/oTuOzkKT3gkqvEbB6BrN8cv1gto.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/oTuOzkKT3gkqvEbB6BrN8cv1gto.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/nqY8yuxLU4K9cSCQpsW4PGyotlN.jpg",
+  "overview": "A drifter lives in people's houses while they are away and repays them by doing chores for them. His life changes when he meets a beautiful woman who wants to escape her unhappy marriage.",
+  "runtime": 88,
+  "genres": [
+   "Drama",
+   "Romance",
+   "Crime"
+  ],
+  "director": [
+   "کیم کی دوک"
+  ],
+  "cast": [
+   "이승연",
+   "재희",
+   "권혁호",
+   "주진모"
+  ],
+  "country": [
+   "South Korea",
+   "Japan"
+  ],
+  "rating": 7.8,
+  "votes": 1320,
+  "imdb": "tt0423866",
+  "tmdb_url": "https://www.themoviedb.org/movie/1280"
+ },
+ "the platform": {
+  "name": "The Platform",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 619264,
+  "title_fa": "پلتفرم (سکو)",
+  "title_en": "The Platform",
+  "year": 2019,
+  "poster": "https://image.tmdb.org/t/p/w500/93u0k8Iq6vRJCtR3FanJTOaqOSg.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/93u0k8Iq6vRJCtR3FanJTOaqOSg.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/3tkDMNfM2YuIAJlvGO6rfIzAnfG.jpg",
+  "overview": "در زندانی بزرگ که در هر طبقه آن یک سلول وجود دارد و در هر سلول آن، دو نفر محبوس شده‌‎اند، روزانه به مدت دو دقیقه، مواد غذایی محدود در اختیار زندانیان قرار می‌گیرد. این در حالی است که هر ماه، زندانیان بر حسب تصادف، به یک طبقه جدید انتقال می‌‎یابند و...",
+  "runtime": 94,
+  "genres": [
+   "Drama",
+   "Science Fiction",
+   "Thriller"
+  ],
+  "director": [
+   "Galder Gaztelu-Urrutia"
+  ],
+  "cast": [
+   "Ivan Massagué",
+   "Antonia San Juan",
+   "Zorion Eguileor",
+   "Emilio Buale"
+  ],
+  "country": [
+   "Spain"
+  ],
+  "rating": 7.0,
+  "votes": 8143,
+  "imdb": "tt8228288",
+  "tmdb_url": "https://www.themoviedb.org/movie/619264"
+ },
+ "inception": {
+  "name": "Inception",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 27205,
+  "title_fa": "تلقین",
+  "title_en": "Inception",
+  "year": 2010,
+  "poster": "https://image.tmdb.org/t/p/w500/rKUx9KF9qSGQQ5njENeDXwxgH0O.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/rKUx9KF9qSGQQ5njENeDXwxgH0O.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/8ZTVqvKDQ8emSGUEMjsS4yHAwrp.jpg",
+  "overview": "دام کاب (بازیگری لئوناردو دی کاپریو) یک دزد ماهر در استخراج اسرار ارزشمند مورد نیاز سازمان‌های جاسوسی و شرکت‌های تجاری و چندملیتی است. توانایی او در این است که هنگامی که دیگران در خواب هستند و ذهنشان در آسیب پذیرترین وضعیت است اسرار کلیدی آنان را از درون رویاهایشان ربوده و در دنیای بیرون از خواب، این اسرار را به خریداران متقاضی عرضه می‌کند. یکی از مشتریان وی به او پیشنهادی می دهد که نمی تواند جواب منفی به او دهد، به همین خاطر گروهی را جمع می کند تا...",
+  "runtime": 148,
+  "genres": [
+   "Action",
+   "Science Fiction",
+   "Crime"
+  ],
+  "director": [
+   "کریستوفر نولان"
+  ],
+  "cast": [
+   "لئوناردو دی‌کاپریو",
+   "جوزف گوردون-لویت",
+   "کن واتانابه",
+   "تام هاردی"
+  ],
+  "country": [
+   "United Kingdom",
+   "United States of America"
+  ],
+  "rating": 8.4,
+  "votes": 40730,
+  "imdb": "tt1375666",
+  "tmdb_url": "https://www.themoviedb.org/movie/27205"
+ },
+ "21grams": {
+  "name": "21Grams",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 470,
+  "title_fa": "۲۱ گرم",
+  "title_en": "21 Grams",
+  "year": 2003,
+  "poster": "https://image.tmdb.org/t/p/w500/wZ0l6or5juuVWqDkLEgaghs4f9l.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/wZ0l6or5juuVWqDkLEgaghs4f9l.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/5SgrtPH6kBmmHao0PofxpvOYfWC.jpg",
+  "overview": "Paul Rivers, an ailing mathematician lovelessly married to an English émigré; Christina Peck, an upper-middle-class suburban housewife and mother of two girls; and Jack Jordan, a born-again ex-con, are brought together by a terrible accident that changes their lives.",
+  "runtime": 124,
+  "genres": [
+   "Drama",
+   "Crime",
+   "Thriller"
+  ],
+  "director": [
+   "آلخاندرو گونزالز اینیاریتو"
+  ],
+  "cast": [
+   "شان پن",
+   "نائومی واتس",
+   "بنیسیو دل تورو",
+   "Charlotte Gainsbourg"
+  ],
+  "country": [
+   "United States of America"
+  ],
+  "rating": 7.3,
+  "votes": 3547,
+  "imdb": "tt0315733",
+  "tmdb_url": "https://www.themoviedb.org/movie/470"
+ },
+ "the sea inside": {
+  "name": "The Sea Inside",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 1913,
+  "title_fa": "Mar adentro",
+  "title_en": "The Sea Inside",
+  "year": 2004,
+  "poster": "https://image.tmdb.org/t/p/w500/6mGgn60Riv14B3zPjTNNZnFHp3c.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/6mGgn60Riv14B3zPjTNNZnFHp3c.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/7XmDhCTkce5GH8KCdbMoTZdxn1p.jpg",
+  "overview": "Ramón Sampedro is a ship mechanic and part-time poet left a quadriplegic following a diving accident. Ramón fought for 30 years for the legal right to end his own life. He develops close relationships with his long-term lawyer Julia and his friend Rosa, who tries to convince him that his life is worth living. Despite his situation, Ramón manages to inspire those around him to live life to the fullest.",
+  "runtime": 126,
+  "genres": [
+   "Drama"
+  ],
+  "director": [
+   "Alejandro Amenábar"
+  ],
+  "cast": [
+   "خاویر باردم",
+   "Belén Rueda",
+   "Lola Dueñas",
+   "Joan Dalmau"
+  ],
+  "country": [
+   "Spain",
+   "France"
+  ],
+  "rating": 7.6,
+  "votes": 1060,
+  "imdb": "tt0369702",
+  "tmdb_url": "https://www.themoviedb.org/movie/1913"
+ },
+ "bohemian rhapsody": {
+  "name": "Bohemian Rhapsody",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 424694,
+  "title_fa": "Bohemian Rhapsody",
+  "title_en": "Bohemian Rhapsody",
+  "year": 2018,
+  "poster": "https://image.tmdb.org/t/p/w500/lHu1wtNaczFPGFDTrjCSzeLPTKN.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/lHu1wtNaczFPGFDTrjCSzeLPTKN.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/dcvbs8z0GEXslC1kCT77x19XDeR.jpg",
+  "overview": "\"راپسودی بوهمی\" یا \"حماسه کولی\" یک فیلم آمریکایی در سبک زندگینامه‌ای به کارگردانی برایان سینگر و دکستر فلچر و نویسندگی آنتونی مک‌کارتن است. که در سال ۲۰۱۸ منتشر شد. رامی ملک در این فیلم در نقش رهبر گروه کوئین، یعنی فردی مرکوری ظاهر شده‌ است. به غیر از ملک، مایک مایرز، جوزف مازلو، بن هاردی، جوزف مازلو، تام هولندر و گیلیام لی نیز در فیلم ایفای نقش کرده‌اند. برایان می و راجر تیلور که دو نفر از اعضای گروه کوئین بودند؛ در ساخت فیلم و به خصوص سکانس‌های مربوط به اجرای کنسرت با سازندگان فیلم؛ همکاری کردند. فیلم حوادثی را در طی سال‌های ۷۰ تا اوایل دهه ۹۰ که برای مرکوری و گروه کوئین رخ داد را به تصویر می‌کشد ...",
+  "runtime": 135,
+  "genres": [
+   "Music",
+   "Drama"
+  ],
+  "director": [
+   "برایان سینگر"
+  ],
+  "cast": [
+   "رامی ملک",
+   "Gwilym Lee",
+   "بن هاردی",
+   "جوزف مازلو"
+  ],
+  "country": [
+   "United States of America"
+  ],
+  "rating": 7.9,
+  "votes": 18228,
+  "imdb": "tt1727824",
+  "tmdb_url": "https://www.themoviedb.org/movie/424694"
+ },
+ "little women": {
+  "name": "Little Women",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 331482,
+  "title_fa": "زنان کوچک",
+  "title_en": "Little Women",
+  "year": 2019,
+  "poster": "https://image.tmdb.org/t/p/w500/yn5ihODtZ7ofn8pDYfxCmxh8AXI.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/yn5ihODtZ7ofn8pDYfxCmxh8AXI.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/lqxxwTRk0l7CubY6JkJdhnwJEkn.jpg",
+  "overview": "Four sisters come of age in America in the aftermath of the Civil War.",
+  "runtime": 135,
+  "genres": [
+   "Drama",
+   "Romance"
+  ],
+  "director": [
+   "گرتا گرویگ"
+  ],
+  "cast": [
+   "سیرشا رونان",
+   "اما واتسون",
+   "فلورنس پیو",
+   "Eliza Scanlen"
+  ],
+  "country": [
+   "United States of America"
+  ],
+  "rating": 7.9,
+  "votes": 7147,
+  "imdb": "tt3281548",
+  "tmdb_url": "https://www.themoviedb.org/movie/331482"
+ },
+ "interstellar": {
+  "name": "Interstellar",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 157336,
+  "title_fa": "در میان ستاره ای",
+  "title_en": "Interstellar",
+  "year": 2014,
+  "poster": "https://image.tmdb.org/t/p/w500/wATQX43h29TojNIbcwLuPg7OPqi.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/wATQX43h29TojNIbcwLuPg7OPqi.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/8sNiAPPYU14PUepFNeSNGUTiHW.jpg",
+  "overview": "در حالی که قحطی و گرسنگی به کره ی زمین چیره شده، گروهی از ستاره شناسان تصمیم میگیرند تا با استفاده از یک کرم‌ چاله‌ ی فضایی که به تازگی کشف شده، محدودیت های سفر انسان به  دور ترین نقاط فضا را از بین ببرند...",
+  "runtime": 169,
+  "genres": [
+   "Adventure",
+   "Drama",
+   "Science Fiction"
+  ],
+  "director": [
+   "کریستوفر نولان"
+  ],
+  "cast": [
+   "متیو مک‌کانهی",
+   "ان هتوی",
+   "مایکل کین",
+   "جسیکا چستین"
+  ],
+  "country": [
+   "United Kingdom",
+   "United States of America"
+  ],
+  "rating": 8.5,
+  "votes": 41894,
+  "imdb": "tt0816692",
+  "tmdb_url": "https://www.themoviedb.org/movie/157336"
+ },
+ "room": {
+  "name": "Room",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 264644,
+  "title_fa": "اتاق",
+  "title_en": "Room",
+  "year": 2015,
+  "poster": "https://image.tmdb.org/t/p/w500/kmJYSyRO5pfFHGepHtR9YDTZXru.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/kmJYSyRO5pfFHGepHtR9YDTZXru.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/cGV6R2vzT4TYIabf3JgmrOISQ0y.jpg",
+  "overview": "ین فیلم روایتگر زندگی زن جوانی به نام جوی است که هفت سال قبل در سن ۱۷ سالگی توسط مردی که ادعا کرده بود سگ مریضش نیاز به کمک دارد ربوده شده و در یک آلونک (کانکس) حدوداً ۱۰ متری زندانی شده‌است و هیچ ارتباطی با دنیای خارج ندارد. وی در سال دوم حصر، از آن مرد، که از وی به عنوان «نیکِ پیر» یاد می‌کنند، صاحب یک پسر به اسم جک نیز شده‌است. در ابتدای فیلم، مادر و فرزند تولد ۵ سالگی جک را جشن می‌گیرند. در ادامهٔ فیلم از زبان جوی می‌شنویم که وی بارها قصد فرار داشته اما موفق به این کار نشده‌است. اما در نهایت مادر و فرزند موفق به فرار می‌شوند و نیک فراری شده اما اندکی بعد دستگیر می‌شود. حال می‌بایست آزادی مادر و پسر باعث شادی غیرقابل وصف آن‌ها شده و از آزادی خود و دنیای بزرگ و رنگارنگ بیرون اتاق لذت ببرند اما هر انسانی هر جایی که باشد در حقیقت بهشت و جهنمی نیز درون خود دارد…",
+  "runtime": 118,
+  "genres": [
+   "Drama",
+   "Thriller"
+  ],
+  "director": [
+   "Lenny Abrahamson"
+  ],
+  "cast": [
+   "بری لارسون",
+   "جیکوب ترمبلی",
+   "جوآن آلن",
+   "شان بریدجرز"
+  ],
+  "country": [
+   "Canada",
+   "Ireland"
+  ],
+  "rating": 8.0,
+  "votes": 9945,
+  "imdb": "tt3170832",
+  "tmdb_url": "https://www.themoviedb.org/movie/264644"
+ },
+ "the unknown woman": {
+  "name": "The Unknown Woman",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 10886,
+  "title_fa": "La sconosciuta",
+  "title_en": "La sconosciuta",
+  "year": 2006,
+  "poster": "https://image.tmdb.org/t/p/w500/mvYE5zYJdmMyMAOSzNLN2L9ReyW.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/mvYE5zYJdmMyMAOSzNLN2L9ReyW.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/ckkDsME8QIqBDp1wO0PvJ2q5ACU.jpg",
+  "overview": "A Ukrainian woman named Irena calculatedly insinuates herself into the lives of a young, affluent Italian family. Stopping at nothing to become the couple's trusted maid and the beloved nanny to their fragile young daughter, Irena risks everything in her quest to uncover the truth about the family.",
+  "runtime": 118,
+  "genres": [
+   "Thriller",
+   "Drama",
+   "Mystery"
+  ],
+  "director": [
+   "جوزپه تورناتوره"
+  ],
+  "cast": [
+   "Ксения Раппопорт",
+   "Michele Placido",
+   "Claudia Gerini",
+   "پیرفرانچسکو فاوینو"
+  ],
+  "country": [
+   "Italy",
+   "France"
+  ],
+  "rating": 7.2,
+  "votes": 383,
+  "imdb": "tt0494271",
+  "tmdb_url": "https://www.themoviedb.org/movie/10886"
+ },
+ "mud": {
+  "name": "Mud",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 103731,
+  "title_fa": "Mud",
+  "title_en": "Mud",
+  "year": 2013,
+  "poster": "https://image.tmdb.org/t/p/w500/o2jT5jQdKh1HAF0fMKuGwBOwOYB.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/o2jT5jQdKh1HAF0fMKuGwBOwOYB.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/otmqSaptLwYutON1oZEgBLZeBEQ.jpg",
+  "overview": "Two teenage boys find a fugitive hiding out on an island in the Mississippi River and help him reunite with his lover and escape an avenging family and their armed posse.",
+  "runtime": 130,
+  "genres": [
+   "Drama"
+  ],
+  "director": [
+   "Jeff Nichols"
+  ],
+  "cast": [
+   "متیو مک‌کانهی",
+   "ریس ویترسپون",
+   "تای شرایدن",
+   "Jacob Lofland"
+  ],
+  "country": [
+   "United States of America"
+  ],
+  "rating": 7.1,
+  "votes": 3200,
+  "imdb": "tt1935179",
+  "tmdb_url": "https://www.themoviedb.org/movie/103731"
+ },
+ "the lobster": {
+  "name": "The Lobster",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 254320,
+  "title_fa": "The Lobster",
+  "title_en": "The Lobster",
+  "year": 2015,
+  "poster": "https://image.tmdb.org/t/p/w500/75sjkIk74aM1HJGAsOcamZ1GcWb.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/75sjkIk74aM1HJGAsOcamZ1GcWb.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/s48CvFbWoWHhSPgz2wW9Rffw04q.jpg",
+  "overview": "In a dystopian near future, single people, according to the laws of The City, are taken to The Hotel, where they are obliged to find a romantic partner in forty-five days or are transformed into animals and sent off into The Woods.",
+  "runtime": 119,
+  "genres": [
+   "Comedy",
+   "Drama",
+   "Romance"
+  ],
+  "director": [
+   "یورگوس لانتی‌موس"
+  ],
+  "cast": [
+   "کالین فارل",
+   "ریچل وایس",
+   "الیویا کلمن",
+   "لئا سیدو"
+  ],
+  "country": [
+   "France",
+   "Greece"
+  ],
+  "rating": 7.0,
+  "votes": 7207,
+  "imdb": "tt3464902",
+  "tmdb_url": "https://www.themoviedb.org/movie/254320"
+ },
+ "pulp fiction": {
+  "name": "Pulp Fiction",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 680,
+  "title_fa": "قصه های عامه پسند",
+  "title_en": "Pulp Fiction",
+  "year": 1994,
+  "poster": "https://image.tmdb.org/t/p/w500/7ZCY8941NaveXbYvg8znIIktK05.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/7ZCY8941NaveXbYvg8znIIktK05.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
+  "overview": "جولز و وینسنت ( باجگیرهای مارسلوس والاس ) در طی اجرای ماموریتی چند حوان را به قتل می رسانند. در حین قتل اتفاق عجیبی باعث تحول فکر و قلبی جولز شده و جولز تصمیم میگیرد که دست از جرم و جنایت برداشته و بسوی وارستگی گام بردارد. ولی وینسنت که اندیشه جولز را مورد تمسخر قرار میداد به کار خود ادامه داده و در ماموریت بعدی …",
+  "runtime": 154,
+  "genres": [
+   "Thriller",
+   "Crime",
+   "Comedy"
+  ],
+  "director": [
+   "کوئنتین تارانتینو"
+  ],
+  "cast": [
+   "جان تراولتا",
+   "ساموئل ال. جکسون",
+   "اوما تورمن",
+   "بروس ویلیس"
+  ],
+  "country": [
+   "United States of America"
+  ],
+  "rating": 8.5,
+  "votes": 31329,
+  "imdb": "tt0110912",
+  "tmdb_url": "https://www.themoviedb.org/movie/680"
+ },
+ "silver linings playbook": {
+  "name": "Silver Linings Playbook",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 82693,
+  "title_fa": "دفترچه‌ی امیدبخش",
+  "title_en": "Silver Linings Playbook",
+  "year": 2012,
+  "poster": "https://image.tmdb.org/t/p/w500/fhHB1uvfFKKFbj6bTKE8xdtsjKi.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/fhHB1uvfFKKFbj6bTKE8xdtsjKi.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/12GpsUm9nVVKFlcjDTflKLClFVA.jpg",
+  "overview": "انستیتو روانی پس از مواجهه با مشکلات مالی مجبور به تغییر در رویه پذیرش بیماران شد. پت سولیتانو، معلم بازنشسته نیز مرخص شده و پیش والدینش باز میگردد. پس از بازگشت او تلاش می کند تا روابطش با همسر سابقش را بهبود ببخشید که در این حین با تیفانی که مشکل روانی دارد آشنا می شود و اوضاع پیچیده می شود",
+  "runtime": 122,
+  "genres": [
+   "Drama",
+   "Comedy",
+   "Romance"
+  ],
+  "director": [
+   "David O. Russell"
+  ],
+  "cast": [
+   "بردلی کوپر",
+   "جنیفر لارنس",
+   "رابرت دنیرو",
+   "Jacki Weaver"
+  ],
+  "country": [
+   "United States of America"
+  ],
+  "rating": 7.2,
+  "votes": 12974,
+  "imdb": "tt1045658",
+  "tmdb_url": "https://www.themoviedb.org/movie/82693"
+ },
+ "babel": {
+  "name": "Babel",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 1164,
+  "title_fa": "بابل",
+  "title_en": "Babel",
+  "year": 2006,
+  "poster": "https://image.tmdb.org/t/p/w500/fCHqcBl1LFDIGurUDEdFCpkYTnH.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/fCHqcBl1LFDIGurUDEdFCpkYTnH.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/o2eG4ugPId4cY6gp2C1MBm33UG.jpg",
+  "overview": "فاجعه به سراغ زوجی که برای تعطیلات در صحرای مراکش قرار دارند می رود. فیلم داستان به هم پیوسته چهار خانواده مختلف را روایت می کند...",
+  "runtime": 143,
+  "genres": [
+   "Drama"
+  ],
+  "director": [
+   "آلخاندرو گونزالز اینیاریتو"
+  ],
+  "cast": [
+   "برد پیت",
+   "کیت بلانشت",
+   "Gael García Bernal",
+   "役所広司"
+  ],
+  "country": [
+   "France",
+   "Mexico"
+  ],
+  "rating": 7.2,
+  "votes": 4254,
+  "imdb": "tt0449467",
+  "tmdb_url": "https://www.themoviedb.org/movie/1164"
+ },
+ "the secret in their eyes 2009": {
+  "name": "The Secret in Their Eyes 2009",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 25376,
+  "title_fa": "رازی در چشمان آنها",
+  "title_en": "El secreto de sus ojos",
+  "year": 2009,
+  "poster": "https://image.tmdb.org/t/p/w500/4qGglMWuI4dHMHX8pMr1BbwaXkW.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/4qGglMWuI4dHMHX8pMr1BbwaXkW.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/zaANf06OtqDJr5saqp5ymEkDPsi.jpg",
+  "overview": "«بنجامین اِسپوزیتو» در حال نوشتن یک رمان است ولی اتفاقی که 25سال پیش افتاده، ذهنش را به‌شدت درگیر کرده است. او که وکیل بود، پرونده‌ی قتل یک زن را در دست داشت و در همان زمان، با زنی به نام «ایرِنه» نیز آشنا می‌شود و هر دو، تلاش بی‌وقفه‌ای برای پیدا کردن قاتل، شروع می‌کنند.",
+  "runtime": 130,
+  "genres": [
+   "Mystery",
+   "Thriller",
+   "Drama"
+  ],
+  "director": [
+   "Juan José Campanella"
+  ],
+  "cast": [
+   "Ricardo Darín",
+   "Soledad Villamil",
+   "Pablo Rago",
+   "Javier Godino"
+  ],
+  "country": [
+   "Argentina",
+   "Spain"
+  ],
+  "rating": 8.0,
+  "votes": 3022,
+  "imdb": "tt1305806",
+  "tmdb_url": "https://www.themoviedb.org/movie/25376"
+ },
+ "before sunrise/before sunset/before midnight": {
+  "name": "Before Sunrise/Before Sunset/Before Midnight",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 76,
+  "title_fa": "پیش از طلوع آفتاب",
+  "title_en": "Before Sunrise",
+  "year": 1995,
+  "poster": "https://image.tmdb.org/t/p/w500/nBvIB9l7LknKkr1KxIXebYvbkss.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/nBvIB9l7LknKkr1KxIXebYvbkss.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/qA2TyqPldTtoTVY3LKrNIG5g6bH.jpg",
+  "overview": "یک مرد و زن جوان همدیگر را در ایستگاه قطار اروپا ملاقات می کنند و بعد عاشق یکدیگر میشوند و به وین سفر میکنند...",
+  "runtime": 101,
+  "genres": [
+   "Drama",
+   "Romance"
+  ],
+  "director": [
+   "ریچارد لینکلیتر"
+  ],
+  "cast": [
+   "ایثن هاک",
+   "Julie Delpy",
+   "Andrea Eckert",
+   "Hanno Pöschl"
+  ],
+  "country": [
+   "Austria",
+   "United States of America"
+  ],
+  "rating": 8.0,
+  "votes": 4972,
+  "imdb": "tt0112471",
+  "tmdb_url": "https://www.themoviedb.org/movie/76"
+ },
+ "12 angry men": {
+  "name": "12 Angry Men",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 389,
+  "title_fa": "۱۲ مرد خشمگین",
+  "title_en": "12 Angry Men",
+  "year": 1957,
+  "poster": "https://image.tmdb.org/t/p/w500/1IvTSbd9e1SPX2CCohHrPx6LBMs.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/1IvTSbd9e1SPX2CCohHrPx6LBMs.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/qqHQsStV6exghCM7zbObuYBiYxw.jpg",
+  "overview": "نوجوانی هیجده ساله از اهالی امریکا لاتین متهم به قتل پدرش گردیده است. شواهد نشان می‌دهد او با ضربات متعدد چاقو پدر خود را به قتل رسانده است، گرچه نوجوان که به نظر ضعیف و افسرده حال می‌رسد این اتهام را قبول ندارد با این حال وجود چاقویی در محل وقوع حادثه که متعلق به نوجوان مذکور است و او ادعا می‌کند آن را مدتی قبل گم کرده و خبری هم از محل آن نداشته است، به عنوان مدرک جرم، دلیلی برای مجرم شناختن او از سوی دادگاه شده است. حال دوازده مرد از طبقات مختلف اجتماعی به عنوان اعضای هیئت منصفه دادگاه، مأمور تصمیم گیری نهایی درباره این پرونده شده‌اند. اگر آنها فرد متهم به قتل را محکوم نمایند، وی باید روی صندلی الکترونیکی اعدام شود",
+  "runtime": 97,
+  "genres": [
+   "Drama"
+  ],
+  "director": [
+   "سیدنی لومت"
+  ],
+  "cast": [
+   "مارتین بالسام",
+   "John Fiedler",
+   "Lee J. Cobb",
+   "E.G. Marshall"
+  ],
+  "country": [
+   "United States of America"
+  ],
+  "rating": 8.6,
+  "votes": 10597,
+  "imdb": "tt0050083",
+  "tmdb_url": "https://www.themoviedb.org/movie/389"
+ },
+ "omar": {
+  "name": "Omar",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 187028,
+  "title_fa": "عمر",
+  "title_en": "Omar",
+  "year": 2013,
+  "poster": "https://image.tmdb.org/t/p/w500/2H9974ej4k3BH7ZdGmp1yr4Hl8X.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/2H9974ej4k3BH7ZdGmp1yr4Hl8X.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/16CMTxHLSTAIIQPsJQQigXuNxFc.jpg",
+  "overview": "The drama, the story of three childhood friends and a young woman who are torn apart in their fight for freedom, is billed as the first fully-financed film to come out of the Palestinian cinema industry.",
+  "runtime": 96,
+  "genres": [
+   "Thriller",
+   "Drama",
+   "Romance"
+  ],
+  "director": [
+   "Hany Abu-Assad"
+  ],
+  "cast": [
+   "Adam Bakri",
+   "Waleed Zuaiter",
+   "لیم لوبانی",
+   "سامر بشارات"
+  ],
+  "country": [
+   "Palestinian Territory"
+  ],
+  "rating": 7.1,
+  "votes": 193,
+  "imdb": "tt2852406",
+  "tmdb_url": "https://www.themoviedb.org/movie/187028"
+ },
+ "amores perros": {
+  "name": "Amores Perros",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 55,
+  "title_fa": "عشق سگی",
+  "title_en": "Amores perros",
+  "year": 2000,
+  "poster": "https://image.tmdb.org/t/p/w500/uoObXx53SjSLLtAavMSIe02zizs.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/uoObXx53SjSLLtAavMSIe02zizs.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/iTkxwBriD9YKg4Q35qWEIlLXd6e.jpg",
+  "overview": "فیلم شامل سه قصهٔ متمایز است که به وسیلهٔ بروز یک سانحهٔ تصادف رانندگی در مکزیکو سیتی به یکدیگر پیوند می‌یابند و در عین حال هر یک از سه داستان فیلم به‌طور مستقل نیز، بازتابهایی از جفاکاری انسان‌ها نسبت به یکدیگر در خود دارند و نشان می‌دهند که چگونه زندگی در تاریکی و تباهی جریان دارد",
+  "runtime": 154,
+  "genres": [
+   "Drama",
+   "Thriller"
+  ],
+  "director": [
+   "آلخاندرو گونزالز اینیاریتو"
+  ],
+  "cast": [
+   "Emilio Echevarría",
+   "Gael García Bernal",
+   "Goya Toledo",
+   "Álvaro Guerrero"
+  ],
+  "country": [
+   "Mexico"
+  ],
+  "rating": 7.7,
+  "votes": 3060,
+  "imdb": "tt0245712",
+  "tmdb_url": "https://www.themoviedb.org/movie/55"
+ },
+ "fences": {
+  "name": "Fences",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 393457,
+  "title_fa": "حصارها",
+  "title_en": "Fences",
+  "year": 2016,
+  "poster": "https://image.tmdb.org/t/p/w500/8wqbPQ16QU1BMyslqszEoW1hh3O.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/8wqbPQ16QU1BMyslqszEoW1hh3O.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/j2kgVOyp4dxlqohU5QJTrDHfbRD.jpg",
+  "overview": "In 1950s Pittsburgh, a frustrated African-American father struggles with the constraints of poverty, racism, and his own inner demons as he tries to raise a family.",
+  "runtime": 139,
+  "genres": [
+   "Drama"
+  ],
+  "director": [
+   "دنزل واشینگتن"
+  ],
+  "cast": [
+   "دنزل واشینگتن",
+   "ویولا دیویس",
+   "استیون هندرسون",
+   "Jovan Adepo"
+  ],
+  "country": [
+   "United States of America",
+   "Canada"
+  ],
+  "rating": 6.9,
+  "votes": 2882,
+  "imdb": "tt2671706",
+  "tmdb_url": "https://www.themoviedb.org/movie/393457"
+ },
+ "ex machina": {
+  "name": "Ex Machina",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 264660,
+  "title_fa": "فرا ماشین",
+  "title_en": "Ex Machina",
+  "year": 2015,
+  "poster": "https://image.tmdb.org/t/p/w500/dmJW8IAKHKxFNiUnoDR7JfsK7Rp.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/dmJW8IAKHKxFNiUnoDR7JfsK7Rp.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/uqOuJ50EtTj7kkDIXP8LCg7G45D.jpg",
+  "overview": "کلب (دامنال گلسون) برنامه نویس جوانی است که به تازگی در یک مسابقه برنده سفر یک هفته ای به منزل متخصص فرایند CEO به نام یعنی ناتان (اسکار آیزاک) شده است. کلب که به شدت از این اتفاق خوشحال است و این ملاقات را افتخاری برای خود و حرفه اش می داند، پس از رسیدن به ویلای ناتان متوجه می شود که برخلاف انتظارش، وی برای انجام آزمایشی به این ویلا آورده شده است. ناتان در این ویلا موفق به طراحی ربات زنی به نام آوا (آلیشیا ویکاندر) شده است که از هوش مصنوعی فوق العاده ای برخوردار است و کلب نیز باید با ربات ساخته ناتان ارتباط برقرار کند، اما...",
+  "runtime": 108,
+  "genres": [
+   "Drama",
+   "Science Fiction"
+  ],
+  "director": [
+   "الکس گارلند"
+  ],
+  "cast": [
+   "دامنل گلیسون",
+   "آلیسیا ویکاندر",
+   "اسکار آیزاک",
+   "سونویا میزونو"
+  ],
+  "country": [
+   "United Kingdom",
+   "United States of America"
+  ],
+  "rating": 7.6,
+  "votes": 14803,
+  "imdb": "tt0470752",
+  "tmdb_url": "https://www.themoviedb.org/movie/264660"
+ },
+ "the handmaiden": {
+  "name": "The handmaiden",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 290098,
+  "title_fa": "ندیمه",
+  "title_en": "The Handmaiden",
+  "year": 2016,
+  "poster": "https://image.tmdb.org/t/p/w500/3eo3rQyiW4XIr27oSjAv2d09WMA.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/3eo3rQyiW4XIr27oSjAv2d09WMA.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/2b3RNXF7ca9bgX8FrjRBYfLnNQC.jpg",
+  "overview": "دهه ۱۹۳۰، کُره. در دورهٔ اشغال ژاپن، مردی شیاد برای اغوای زن ثروتمند ژاپنی و راضی کردن او به ازدواجش با وی، دختری را بعنوان خدمتکار برای آن زن، استخدام می‌کند. وظیفه این خدمتکار قلابی راضی کردن زن به ازدواج با آن مرد است و…",
+  "runtime": 145,
+  "genres": [
+   "Thriller",
+   "Drama",
+   "Romance"
+  ],
+  "director": [
+   "박찬욱"
+  ],
+  "cast": [
+   "김민희",
+   "کیم ته ری",
+   "ها جونگ وو",
+   "조진웅"
+  ],
+  "country": [
+   "South Korea"
+  ],
+  "rating": 8.2,
+  "votes": 4590,
+  "imdb": "tt4016934",
+  "tmdb_url": "https://www.themoviedb.org/movie/290098"
+ },
+ "the hunt": {
+  "name": "The Hunt",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 103663,
+  "title_fa": "شکار",
+  "title_en": "The Hunt",
+  "year": 2012,
+  "poster": "https://image.tmdb.org/t/p/w500/7XdyYOfeapoFJroXbc7ilLxmYqI.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/7XdyYOfeapoFJroXbc7ilLxmYqI.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/jmVWlCZ8hRtmrQGbKXXFHsrSohp.jpg",
+  "overview": "شکار فیلمی درام دانمارکی به کارگردانی توماس وینتربرگ و با بازی مدس مایکلسن است. داستان در یک روستای کوچک دانمارکی در اطراف کریسمس رخ می‌دهد، و به دنبال آن زندگی یک مرد که هدف هیستری جمعی پس از این که به اشتباه متهم به تجاوز جنسی به یک کودک شده است را نشان می‌دهد",
+  "runtime": 116,
+  "genres": [
+   "Drama"
+  ],
+  "director": [
+   "Thomas Vinterberg"
+  ],
+  "cast": [
+   "مدس میکلسن",
+   "Thomas Bo Larsen",
+   "Annika",
+   "Lasse Fogelstrøm"
+  ],
+  "country": [
+   "Denmark",
+   "Sweden"
+  ],
+  "rating": 8.1,
+  "votes": 5093,
+  "imdb": "tt2106476",
+  "tmdb_url": "https://www.themoviedb.org/movie/103663"
+ },
+ "the wailing": {
+  "name": "The Wailing",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 293670,
+  "title_fa": "곡성",
+  "title_en": "The Wailing",
+  "year": 2016,
+  "poster": "https://image.tmdb.org/t/p/w500/k9AKtgRErXjz14lFHL2IJVCgwOT.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/k9AKtgRErXjz14lFHL2IJVCgwOT.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/9qxBNfI1QFbiZS62fsgaUd563t2.jpg",
+  "overview": "A stranger arrives in a little village and soon after a mysterious sickness starts spreading. A policeman is drawn into the incident and is forced to solve the mystery in order to save his daughter.",
+  "runtime": 156,
+  "genres": [
+   "Horror",
+   "Mystery"
+  ],
+  "director": [
+   "나홍진"
+  ],
+  "cast": [
+   "곽도원",
+   "هوانگ جونگ مین",
+   "천우희",
+   "جون کونیمورا"
+  ],
+  "country": [
+   "South Korea",
+   "United States of America"
+  ],
+  "rating": 7.4,
+  "votes": 2242,
+  "imdb": "tt5215952",
+  "tmdb_url": "https://www.themoviedb.org/movie/293670"
+ },
+ "requiem for a dream": {
+  "name": "Requiem For a Dream",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 641,
+  "title_fa": "مرثیه‌ای بر یک رؤیا",
+  "title_en": "Requiem for a Dream",
+  "year": 2000,
+  "poster": "https://image.tmdb.org/t/p/w500/9BTwsLaMVHOGFlmsSlx5QYCaXb.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/9BTwsLaMVHOGFlmsSlx5QYCaXb.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/fAGYRJCujRBMw7TCuTp893eSG8e.jpg",
+  "overview": "مرثیه‌ای بر یک رؤیا نام فیلمی درام و روان‌شناسی به کارگردانی دارن آرونوفسکی و نویسندگی دارن آرونوفسکی و هوبرت سلبی جونیور محصول سال ۲۰۰۰ از شرکت آمریکایی آرتیسان اینترتیمنت می‌باشد. این فیلم بر اساس رمانی به همین نام نوشته هوبرت سلبی جونیور ساخته شده‌است.\r سارا گلدفارب بیوه ای که به تلویزیون معتاد است.  پسرش هری یک معتاد به مواد مخدر است که با دوست دخترش ماریون زیبا و تایرون فروشنده مواد مخدر معاشرت می کند.  سارا در یک برنامه تلویزیونی ظاهر می شود و بسیار هیجان زده است.  برای لباس قرمز که جایزه است سعی می کند وزن کم کند و شروع به استفاده از قرص های لاغری می کند.  از سوی دیگر، هری و دوستانش بی وقفه به مصرف هروئین و کوکائین ادامه می دهند.  با گذشت زمان، این اعتیادها خانواده را به فاجعه می کشاند.",
+  "runtime": 102,
+  "genres": [
+   "Drama"
+  ],
+  "director": [
+   "دارن آرونوفسکی"
+  ],
+  "cast": [
+   "الن برستین",
+   "جرد لتو",
+   "جنیفر کانلی",
+   "مارلون وینس"
+  ],
+  "country": [
+   "United States of America"
+  ],
+  "rating": 8.0,
+  "votes": 11488,
+  "imdb": "tt0180093",
+  "tmdb_url": "https://www.themoviedb.org/movie/641"
+ },
+ "wonder": {
+  "name": "Wonder",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 406997,
+  "title_fa": "اعجوبه",
+  "title_en": "Wonder",
+  "year": 2017,
+  "poster": "https://image.tmdb.org/t/p/w500/sONh3LYGFcVDTy8pm1tbSOB13Li.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/sONh3LYGFcVDTy8pm1tbSOB13Li.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/b7xQ5fuyVO4c24igizCfPgF6n7q.jpg",
+  "overview": "The story of August Pullman – a boy with facial differences – who enters fifth grade, attending a mainstream elementary school for the first time.",
+  "runtime": 113,
+  "genres": [
+   "Family",
+   "Drama"
+  ],
+  "director": [
+   "استیفن شباسکی"
+  ],
+  "cast": [
+   "جیکوب ترمبلی",
+   "جولیا رابرتس",
+   "اوون ویلسون",
+   "Izabela Vidovic"
+  ],
+  "country": [
+   "United States of America"
+  ],
+  "rating": 8.1,
+  "votes": 8467,
+  "imdb": "tt2543472",
+  "tmdb_url": "https://www.themoviedb.org/movie/406997"
+ },
+ "children of men": {
+  "name": "children of men",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 9693,
+  "title_fa": "Children of Men",
+  "title_en": "Children of Men",
+  "year": 2006,
+  "poster": "https://image.tmdb.org/t/p/w500/k9IAS4TehZFcKi4HVByxZNPfqex.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/k9IAS4TehZFcKi4HVByxZNPfqex.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/8Y1S9BtmTOh86irwFo7CJ01YPXF.jpg",
+  "overview": "In 2027, in a chaotic world in which humans can no longer procreate, a former activist agrees to help transport a miraculously pregnant woman to a sanctuary at sea, where her child's birth may help scientists save the future of humankind.",
+  "runtime": 109,
+  "genres": [
+   "Science Fiction",
+   "Thriller",
+   "Action"
+  ],
+  "director": [
+   "آلفونسو کوارون"
+  ],
+  "cast": [
+   "کلایو اوون",
+   "Clare-Hope Ashitey",
+   "چیویتل اجیوفور",
+   "جولین مور"
+  ],
+  "country": [
+   "United Kingdom",
+   "United States of America"
+  ],
+  "rating": 7.6,
+  "votes": 8291,
+  "imdb": "tt0206634",
+  "tmdb_url": "https://www.themoviedb.org/movie/9693"
+ },
+ "tenet": {
+  "name": "tenet",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 577922,
+  "title_fa": "تنت",
+  "title_en": "Tenet",
+  "year": 2020,
+  "poster": "https://image.tmdb.org/t/p/w500/k2az1QwAcRojG2DkMgq547cuUtm.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/k2az1QwAcRojG2DkMgq547cuUtm.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/mQOUyqDybTqxl73hO5LujCZsM1o.jpg",
+  "overview": "یک فیلم اکشن حماسی درباره ی جاسوسی، سفر در زمان و تکامل. این فیلم داستان مردی را روایت می کند که قصد دارد با استفاده از سفر در زمان و تولد دوباره، از وقوع جنگ جهانی سوم جلوگیری کند.",
+  "runtime": 150,
+  "genres": [
+   "Action",
+   "Thriller",
+   "Science Fiction"
+  ],
+  "director": [
+   "کریستوفر نولان"
+  ],
+  "cast": [
+   "جان دیوید واشینگتن",
+   "رابرت پتینسون",
+   "الیزابت دبیکی",
+   "کنت برانا"
+  ],
+  "country": [
+   "United Kingdom",
+   "United States of America"
+  ],
+  "rating": 7.2,
+  "votes": 11771,
+  "imdb": "tt6723592",
+  "tmdb_url": "https://www.themoviedb.org/movie/577922"
+ },
+ "another round": {
+  "name": "another round",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 580175,
+  "title_fa": "یک دور دیگر",
+  "title_en": "Another Round",
+  "year": 2020,
+  "poster": "https://image.tmdb.org/t/p/w500/2GIHLUjKfGgrqoP5F1WxBwG62HO.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/2GIHLUjKfGgrqoP5F1WxBwG62HO.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/a2pPepVPtKY7E4XEkT7W3ZxUOY5.jpg",
+  "overview": "داستان این فیلم درباره چهار معلم است که با الهام از نظریه فیلسوف نروژی درباره اینکه انسان با میزان ثابتی از الکل در خون متولد می شود که آن مقدار 0.5 درصد و بیش از حد پایین است، سعی می‌کنند در زندگی روزمره شان خود را با الکل مست نگه دارند.",
+  "runtime": 117,
+  "genres": [
+   "Drama"
+  ],
+  "director": [
+   "Thomas Vinterberg"
+  ],
+  "cast": [
+   "مدس میکلسن",
+   "Thomas Bo Larsen",
+   "Magnus Millang",
+   "Lars Ranthe"
+  ],
+  "country": [
+   "Denmark",
+   "Netherlands"
+  ],
+  "rating": 7.6,
+  "votes": 4021,
+  "imdb": "tt10288566",
+  "tmdb_url": "https://www.themoviedb.org/movie/580175"
+ },
+ "godfather": {
+  "name": "godfather",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 238,
+  "title_fa": "پدرخوانده",
+  "title_en": "The Godfather",
+  "year": 1972,
+  "poster": "https://image.tmdb.org/t/p/w500/gelPQwf35BtjdEKWYD1jYnkLJX3.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/gelPQwf35BtjdEKWYD1jYnkLJX3.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/tSPT36ZKlP2WVHJLM4cQPLSzv3b.jpg",
+  "overview": "\"دون ویتو کورلیونه\"، بزرگ یک \"خانواده\" مافیایی نیویورکی است. وقتی یک گنگستر تحت حمایت \"سولوتزو\"، یک خانواده مافیایی دیگر، قصد خود را مبنی بر فروش و پخش موادمخدر در سراسر نیویورک اعلام می‌کند، مشکلات شروع می‌شود. دون ویتو مخالف این کار است و به پولی که از \"باج\" و قمارخانه‌ها و غیره درمی‌آورد، راضی است. بنابراین به جانش سوءقصد می‌کنند. سپس سولوتزو، یکی از مشاوران دون ویتو را می‌رباید و او را وادار می‌کند تا پسر دون ویتو را به فروش موادمخدر راضی کند. اما هنگامی‌که سولوتزو خبردار می‌شود که دون ویتو هنوز زنده است، نقشه‌هایش به باد می‌رود …",
+  "runtime": 175,
+  "genres": [
+   "Drama",
+   "Crime"
+  ],
+  "director": [
+   "فرانسیس فورد کوپولا"
+  ],
+  "cast": [
+   "مارلون براندو",
+   "آل پاچینو",
+   "جیمز کان",
+   "رابرت دووال"
+  ],
+  "country": [
+   "United States of America"
+  ],
+  "rating": 8.7,
+  "votes": 23982,
+  "imdb": "tt0068646",
+  "tmdb_url": "https://www.themoviedb.org/movie/238"
+ },
+ "mother!": {
+  "name": "mother!",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 381283,
+  "title_fa": "مادر!",
+  "title_en": "mother!",
+  "year": 2017,
+  "poster": "https://image.tmdb.org/t/p/w500/fjny9chXPx69ln1LMJxbwi5yHMt.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/fjny9chXPx69ln1LMJxbwi5yHMt.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/2wS8pMZgvzq7kaZb5LHX54poQnA.jpg",
+  "overview": "A couple's relationship is tested when uninvited guests arrive at their home, disrupting their tranquil existence.",
+  "runtime": 121,
+  "genres": [
+   "Horror",
+   "Mystery"
+  ],
+  "director": [
+   "دارن آرونوفسکی"
+  ],
+  "cast": [
+   "جنیفر لارنس",
+   "خاویر باردم",
+   "اد هریس",
+   "میشل فایفر"
+  ],
+  "country": [
+   "United States of America"
+  ],
+  "rating": 6.9,
+  "votes": 7334,
+  "imdb": "tt5109784",
+  "tmdb_url": "https://www.themoviedb.org/movie/381283"
+ },
+ "her": {
+  "name": "Her",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 152601,
+  "title_fa": "او",
+  "title_en": "Her",
+  "year": 2013,
+  "poster": "https://image.tmdb.org/t/p/w500/qRmO8eRwRsRAv46syNsHHKFcdqq.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/qRmO8eRwRsRAv46syNsHHKFcdqq.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/1YnZchmaGc8dchgRPDpR1KGrixA.jpg",
+  "overview": "در آینده ‌ای که هوش مصنوعی و سیستم ‌های هوشمند جایگزین نیرو‌ها و خدمات انسانی شده ‌اند و دنیا به سوی تکنولوژی سوق پیدا کرده است، مردی تنها و منزوی به نام تئودور، با یک فناوری هوشمند که دارای صدا و شخصیت یک زن است، رابطه عاطفی برقرار می ‌کند و...",
+  "runtime": 126,
+  "genres": [
+   "Romance",
+   "Science Fiction",
+   "Drama"
+  ],
+  "director": [
+   "اسپایک جونز"
+  ],
+  "cast": [
+   "واکین فینیکس",
+   "اسکارلت جوهانسون",
+   "Lynn Adrianna",
+   "Lisa Renee Pitts"
+  ],
+  "country": [
+   "United States of America"
+  ],
+  "rating": 7.8,
+  "votes": 15837,
+  "imdb": "tt1798709",
+  "tmdb_url": "https://www.themoviedb.org/movie/152601"
+ },
+ "the gift": {
+  "name": "The Gift",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 328425,
+  "title_fa": "The Gift",
+  "title_en": "The Gift",
+  "year": 2015,
+  "poster": "https://image.tmdb.org/t/p/w500/kH3qLP8pn68Xq5XwvmPkCyaAU7W.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/kH3qLP8pn68Xq5XwvmPkCyaAU7W.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/xjcDbk4qPWtGQPx5Z0cMu4kqlWM.jpg",
+  "overview": "Simon and Robyn are a young married couple whose life is going as planned until a chance run-in with Simon's high school acquaintance sends their world into a tailspin.",
+  "runtime": 108,
+  "genres": [
+   "Thriller",
+   "Mystery",
+   "Drama"
+  ],
+  "director": [
+   "جوئل ادگورتون"
+  ],
+  "cast": [
+   "جوئل ادگورتون",
+   "ربکا هال",
+   "جیسون بیتمن",
+   "Tim Griffin"
+  ],
+  "country": [
+   "Australia",
+   "United States of America"
+  ],
+  "rating": 6.7,
+  "votes": 3651,
+  "imdb": "tt4178092",
+  "tmdb_url": "https://www.themoviedb.org/movie/328425"
+ },
+ "train to busan": {
+  "name": "Train To Busan",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 396535,
+  "title_fa": "قطار بوسان",
+  "title_en": "Train to Busan",
+  "year": 2016,
+  "poster": "https://image.tmdb.org/t/p/w500/6XvEZVBFFjybvb1yQd1qfOC6F2S.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/6XvEZVBFFjybvb1yQd1qfOC6F2S.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/brnfCYyz8EMbBrHgmh8sCwBi5i1.jpg",
+  "overview": "هنگامی که یک ویروس زامبی کره را به وضعیت اضطراری سوق می‌دهد، کسانی که در قطار سریع‌السیر به مقصد بوسان به دام افتاده‌اند باید برای بقای خود مبارزه کنند.",
+  "runtime": 118,
+  "genres": [
+   "Action",
+   "Horror",
+   "Thriller"
+  ],
+  "director": [
+   "یئون سانگ هو"
+  ],
+  "cast": [
+   "گونگ یو",
+   "김수안",
+   "정유미",
+   "دون لی"
+  ],
+  "country": [
+   "South Korea"
+  ],
+  "rating": 7.8,
+  "votes": 8930,
+  "imdb": "tt5700672",
+  "tmdb_url": "https://www.themoviedb.org/movie/396535"
+ },
+ "better days": {
+  "name": "Better Days",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 575813,
+  "title_fa": "少年的你",
+  "title_en": "Better Days",
+  "year": 2019,
+  "poster": "https://image.tmdb.org/t/p/w500/bjhoWPRihKSQNbqxvQgcEkOVN3j.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/bjhoWPRihKSQNbqxvQgcEkOVN3j.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/putsivYODgbKrhvwl9n4OqhPOkO.jpg",
+  "overview": "A bullied teenage girl forms an unlikely friendship with a mysterious young man who protects her from her assailants, while she copes with the pressures of her final examinations.",
+  "runtime": 135,
+  "genres": [
+   "Drama",
+   "Crime",
+   "Romance"
+  ],
+  "director": [
+   "曾国祥"
+  ],
+  "cast": [
+   "周冬雨",
+   "易烊千玺",
+   "尹昉",
+   "黄觉"
+  ],
+  "country": [
+   "China",
+   "Hong Kong"
+  ],
+  "rating": 8.1,
+  "votes": 594,
+  "imdb": "tt9586294",
+  "tmdb_url": "https://www.themoviedb.org/movie/575813"
+ },
+ "pieces of a woman": {
+  "name": "pieces of a woman",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 641662,
+  "title_fa": "تکه های یک زن",
+  "title_en": "Pieces of a Woman",
+  "year": 2020,
+  "poster": "https://image.tmdb.org/t/p/w500/OgUfLlhfBFx5BPK6LzBWFvBW1w.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/OgUfLlhfBFx5BPK6LzBWFvBW1w.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/izNpxVcjKbF9BiYF4GVqxCOfewL.jpg",
+  "overview": "تکه‌های یک زن ، نام فیلمی غم‌انگیز و اجتماعی محصول ۲۰۲۰ به کارگردانی کورنل موندروتسو می‌باشد. در خلاصه داستان این فیلم آمده است ، یک زن عزادار ، بعد از فوت بچه‌اش سیاحتی احساسی تجربه می‌کند و…",
+  "runtime": 127,
+  "genres": [
+   "Drama"
+  ],
+  "director": [
+   "Mundruczó Kornél"
+  ],
+  "cast": [
+   "ونسا کربی",
+   "شایا لباف",
+   "الن برستین",
+   "سارا اسنوک"
+  ],
+  "country": [
+   "Canada",
+   "Hungary"
+  ],
+  "rating": 7.0,
+  "votes": 1362,
+  "imdb": "tt11161474",
+  "tmdb_url": "https://www.themoviedb.org/movie/641662"
+ },
+ "saving private ryan": {
+  "name": "saving private ryan",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 857,
+  "title_fa": "نجات سرباز رایان",
+  "title_en": "Saving Private Ryan",
+  "year": 1998,
+  "poster": "https://image.tmdb.org/t/p/w500/kwO09akZCoWKArJQfdZ9gnfJyro.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/kwO09akZCoWKArJQfdZ9gnfJyro.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/rW2xRFlJRbTnBJlQTSjQmjevIwb.jpg",
+  "overview": "در جریان جنگ جهانی دوم، گروهی از سربازان امریکایی به پشت خطوط دشمن نفوذ می کنند تا یک سرباز چترباز بنام رایان، که تمام برادرانش در جنگ کشته شده‌اند، را نجات دهند.",
+  "runtime": 169,
+  "genres": [
+   "War",
+   "Drama",
+   "History"
+  ],
+  "director": [
+   "استیون اسپیلبرگ"
+  ],
+  "cast": [
+   "تام هنکس",
+   "Tom Sizemore",
+   "ادوارد برنز",
+   "بری پپر"
+  ],
+  "country": [
+   "United States of America"
+  ],
+  "rating": 8.2,
+  "votes": 18085,
+  "imdb": "tt0120815",
+  "tmdb_url": "https://www.themoviedb.org/movie/857"
+ },
+ "run lola run": {
+  "name": "run lola run",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 104,
+  "title_fa": "بدو لولا بدو",
+  "title_en": "Lola rennt",
+  "year": 1998,
+  "poster": "https://image.tmdb.org/t/p/w500/oq2T6V8EYiYNVmEuqPu9XZT6b5E.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/oq2T6V8EYiYNVmEuqPu9XZT6b5E.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/wRcm3iwi4BeMN59U4fjO7u3dOVI.jpg",
+  "overview": "لولا تماسی از دوست‌پسرش، مانی، دریافت می‌کند. او ۱۰۰,۰۰۰ مارک آلمان را در یک قطار مترو گم کرده است که متعلق به یک آدم خطرناک است. او ۲۰ دقیقه فرصت دارد تا این مبلغ را تهیه کند و به ملاقات مانی برود. در غیر این صورت، مانی مجبور است برای تهیه پول از یک مغازه دزدی کند. سه سناریوی متفاوت ممکن است بسته به برخی رویدادهای جزئی در طول دویدن لولا اتفاق بیفتد.",
+  "runtime": 80,
+  "genres": [
+   "Action",
+   "Drama",
+   "Thriller"
+  ],
+  "director": [
+   "تام تیکور"
+  ],
+  "cast": [
+   "فرانکا پوتنته",
+   "موریتس بلایبتروی",
+   "Herbert Knaup",
+   "Nina Petri"
+  ],
+  "country": [
+   "Germany"
+  ],
+  "rating": 7.3,
+  "votes": 2734,
+  "imdb": "tt0130827",
+  "tmdb_url": "https://www.themoviedb.org/movie/104"
+ },
+ "the father": {
+  "name": "the father",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 600354,
+  "title_fa": "پدر",
+  "title_en": "The Father",
+  "year": 2020,
+  "poster": "https://image.tmdb.org/t/p/w500/pr3bEQ517uMb5loLvjFQi8uLAsp.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/pr3bEQ517uMb5loLvjFQi8uLAsp.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/h3weAFgg06GqchI2xDfufBgSFTj.jpg",
+  "overview": "مردی از پذیرش هرگونه کمک از سوی دخترش در هنگام پیری خودداری می‌کند و در تلاش برای درک شرایط در حال تغییرش، شروع به شک کردن به عزیزانش، ذهن خود و حتی ماهیت واقعیتش می‌کند.",
+  "runtime": 97,
+  "genres": [
+   "Drama"
+  ],
+  "director": [
+   "Florian Zeller"
+  ],
+  "cast": [
+   "آنتونی هاپکینز",
+   "الیویا کلمن",
+   "مارک گیتیس",
+   "اولیویا ویلیامز"
+  ],
+  "country": [
+   "France",
+   "United Kingdom"
+  ],
+  "rating": 8.1,
+  "votes": 3851,
+  "imdb": "tt10272386",
+  "tmdb_url": "https://www.themoviedb.org/movie/600354"
+ },
+ "i saw the devil": {
+  "name": "i saw the devil",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 49797,
+  "title_fa": "악마를 보았다",
+  "title_en": "I Saw the Devil",
+  "year": 2010,
+  "poster": "https://image.tmdb.org/t/p/w500/dFGrIdZGJtxm1GG4X1liYbxyjgd.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/dFGrIdZGJtxm1GG4X1liYbxyjgd.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/dXDFWWxiEb6tg4ojMWQJrSI0Tun.jpg",
+  "overview": "Kyung-chul is a dangerous psychopath who kills for pleasure. Soo-hyeon, a top-secret agent, decides to track down the murderer himself. He promises himself that he will do everything in his power to take vengeance against the killer, even if it means that he must become a monster himself.",
+  "runtime": 144,
+  "genres": [
+   "Thriller",
+   "Horror"
+  ],
+  "director": [
+   "김지운"
+  ],
+  "cast": [
+   "لی بیونگ هون",
+   "چوی مین سیک",
+   "전국환",
+   "천호진"
+  ],
+  "country": [
+   "South Korea"
+  ],
+  "rating": 7.8,
+  "votes": 3241,
+  "imdb": "tt1588170",
+  "tmdb_url": "https://www.themoviedb.org/movie/49797"
+ },
+ "luca": {
+  "name": "Luca",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 508943,
+  "title_fa": "لوکا",
+  "title_en": "Luca",
+  "year": 2021,
+  "poster": "https://image.tmdb.org/t/p/w500/3gdq9MRMeXiRzm4xM4zHocxNw7y.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/3gdq9MRMeXiRzm4xM4zHocxNw7y.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/620hnMVLu6RSZW6a5rwO8gqpt0t.jpg",
+  "overview": "در ریویرای ایتالیا، دوستی عجیب و غریبی میان یک انسان و یک هیولای دریایی در ظاهر انسان، بوجود آمده است...",
+  "runtime": 95,
+  "genres": [
+   "Animation",
+   "Family",
+   "Fantasy"
+  ],
+  "director": [
+   "Enrico Casarosa"
+  ],
+  "cast": [
+   "جیکوب ترمبلی",
+   "جک دیلن گریزر",
+   "Emma Berman",
+   "Saverio Raimondo"
+  ],
+  "country": [
+   "United States of America"
+  ],
+  "rating": 7.8,
+  "votes": 9235,
+  "imdb": "tt12801262",
+  "tmdb_url": "https://www.themoviedb.org/movie/508943"
+ },
+ "predestination": {
+  "name": "Predestination",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 206487,
+  "title_fa": "سرنوشت",
+  "title_en": "Predestination",
+  "year": 2014,
+  "poster": "https://image.tmdb.org/t/p/w500/38Xr1JnV1ZcLQ55zmdSp6n475cZ.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/38Xr1JnV1ZcLQ55zmdSp6n475cZ.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/cvq9cRMDJIGzNpHaPVGFftqPcLj.jpg",
+  "overview": "Predestination chronicles the life of a Temporal Agent sent on an intricate series of time-travel journeys designed to prevent future killers from committing their crimes. Now, on his final assignment, the Agent must stop the one criminal that has eluded him throughout time and prevent a devastating attack in which thousands of lives will be lost.",
+  "runtime": 98,
+  "genres": [
+   "Science Fiction",
+   "Thriller"
+  ],
+  "director": [
+   "Peter Spierig",
+   "Michael Spierig"
+  ],
+  "cast": [
+   "ایثن هاک",
+   "سارا اسنوک",
+   "نوآ تیلور",
+   "Christopher Kirby"
+  ],
+  "country": [
+   "Australia"
+  ],
+  "rating": 7.4,
+  "votes": 7485,
+  "imdb": "tt2397535",
+  "tmdb_url": "https://www.themoviedb.org/movie/206487"
+ },
+ "persian lessons": {
+  "name": "Persian Lessons",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 581577,
+  "title_fa": "درس‌های پارسی",
+  "title_en": "Persischstunden",
+  "year": 2020,
+  "poster": "https://image.tmdb.org/t/p/w500/svyMh8Jg9322b0WydMkuNFaH4hy.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/svyMh8Jg9322b0WydMkuNFaH4hy.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/kgP4YOUWKhJZWL0Z8LJ6G6LBMEM.jpg",
+  "overview": "یک جوان یهودی وانمود می کند که ایرانی است تا از اعدام در اردوگاه کار گریز کند.",
+  "runtime": 127,
+  "genres": [
+   "War",
+   "Drama"
+  ],
+  "director": [
+   "Вадим Перельман"
+  ],
+  "cast": [
+   "Nahuel Pérez Biscayart",
+   "لارس آیدینگر",
+   "جوناس نای",
+   "لیونی بنش"
+  ],
+  "country": [
+   "Russia",
+   "Germany"
+  ],
+  "rating": 7.6,
+  "votes": 536,
+  "imdb": "tt9738784",
+  "tmdb_url": "https://www.themoviedb.org/movie/581577"
+ },
+ "shutter island": {
+  "name": "Shutter Island",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 11324,
+  "title_fa": "جزیره شاتر",
+  "title_en": "Shutter Island",
+  "year": 2010,
+  "poster": "https://image.tmdb.org/t/p/w500/caPfmYWY804P7BVD8r0J9RQIuN4.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/caPfmYWY804P7BVD8r0J9RQIuN4.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/lavdyiJWciCJvyLG37ZOs6HJijg.jpg",
+  "overview": "سال ۱۹۵۴ تدی دنیلز، یک مارشال امریکایی، برای تحقیق در مورد ناپدید شدن یکی از بیماران بیمارستان روانی اشکلیف به جزیره شاتر می رود. تدی با تحقیقات زیرکانه و مهارتش، خیلی زود سر نخی از معما بدست می آورد...",
+  "runtime": 138,
+  "genres": [
+   "Drama",
+   "Thriller",
+   "Mystery"
+  ],
+  "director": [
+   "مارتین اسکورسیزی"
+  ],
+  "cast": [
+   "لئوناردو دی‌کاپریو",
+   "مارک رافلو",
+   "بن کینگزلی",
+   "ماکس فون سیدو"
+  ],
+  "country": [
+   "United States of America"
+  ],
+  "rating": 8.2,
+  "votes": 26817,
+  "imdb": "tt1130884",
+  "tmdb_url": "https://www.themoviedb.org/movie/11324"
+ },
+ "august:osage county": {
+  "name": "August:Osage County",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 152737,
+  "title_fa": "آگوست: اوسیج کانتی",
+  "title_en": "August: Osage County",
+  "year": 2013,
+  "poster": "https://image.tmdb.org/t/p/w500/fvjxr77dfxdIOY3lvj0bHP4B5xT.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/fvjxr77dfxdIOY3lvj0bHP4B5xT.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/svxDWCRGn4AWbOePNE5Fmdsjf6q.jpg",
+  "overview": "زندگی یک خانوادهٔ بزرگ و ازهم‌گسیخته‌ای روایت می‌شود که بعد از مدت‌ها به خاطر ناپدید شدنِ ناگهانیِ پدربزرگ دور هم جمع شده‌اند...\r عنوانِ فیلم در واقع از دو عنصر زمان و مکانِ وقوع ماجرا تشکیل شده‌است.",
+  "runtime": 121,
+  "genres": [
+   "Comedy",
+   "Drama"
+  ],
+  "director": [
+   "جان ولز"
+  ],
+  "cast": [
+   "مریل استریپ",
+   "جولیا رابرتس",
+   "جولیان نیکلسون",
+   "جولیت لوئیس"
+  ],
+  "country": [
+   "United States of America"
+  ],
+  "rating": 6.9,
+  "votes": 1641,
+  "imdb": "tt1322269",
+  "tmdb_url": "https://www.themoviedb.org/movie/152737"
+ },
+ "legend 1900": {
+  "name": "legend 1900",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 10376,
+  "title_fa": "افسانه ۱۹۰۰",
+  "title_en": "La leggenda del pianista sull'oceano",
+  "year": 1998,
+  "poster": "https://image.tmdb.org/t/p/w500/8rttNpb83qdHFMPMgFlcspVGaio.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/8rttNpb83qdHFMPMgFlcspVGaio.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/muSeX7fnNw0pv4zHK7RSwZln6Hk.jpg",
+  "overview": "ماکس ( تیلور وینس) نوازنده‌ایست که به مرور خاطراتش می‌پردازد: در سال 1900 یک کارگر کشتی در موتورخانه کودکی را پیدا می‌کند. او نام 1900 را برای کودک انتخاب کرده و تصمیم می‌گیرد او را بزرگ کند، اما بر اثر حادثه ای از دنیا می‌رود. 1900(تیم راث) استعداد خارق العاده‌ای در موسیقی و نواختن پیانو دارد. بر اساس همین علاقه شغل ساده‌ای در کشتی پیدا می‌کند. او هیچ علاقه‌ای به ترک کشتی و ورود به دنیای خاکی ندارد، تا اینکه دختری زیبا را بین مسافران کشتی می‌بیند و ...",
+  "runtime": 170,
+  "genres": [
+   "Drama",
+   "Music"
+  ],
+  "director": [
+   "جوزپه تورناتوره"
+  ],
+  "cast": [
+   "تیم راث",
+   "پروییت تیلور وینس",
+   "Mélanie Thierry",
+   "Bill Nunn"
+  ],
+  "country": [
+   "Italy"
+  ],
+  "rating": 8.2,
+  "votes": 2525,
+  "imdb": "tt0120731",
+  "tmdb_url": "https://www.themoviedb.org/movie/10376"
+ },
+ "in bruges": {
+  "name": "in bruges",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 8321,
+  "title_fa": "In Bruges",
+  "title_en": "In Bruges",
+  "year": 2008,
+  "poster": "https://image.tmdb.org/t/p/w500/vz3Vd6nfq9YZrVvyYx5RHFaYKV3.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/vz3Vd6nfq9YZrVvyYx5RHFaYKV3.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/dtGxDOcFssdUUTYBr6M6INXTI1e.jpg",
+  "overview": "Ray and Ken, two hit men, are in Bruges, Belgium, waiting for their next mission. While they are there they have time to think and discuss their previous assignment. When the mission is revealed to Ken, it is not what he expected.",
+  "runtime": 108,
+  "genres": [
+   "Comedy",
+   "Drama",
+   "Crime"
+  ],
+  "director": [
+   "مارتین مک‌دونا"
+  ],
+  "cast": [
+   "کالین فارل",
+   "برندن گلیسون",
+   "رالف فاینز",
+   "کلیمانس پوزی"
+  ],
+  "country": [
+   "United Kingdom",
+   "United States of America"
+  ],
+  "rating": 7.5,
+  "votes": 6099,
+  "imdb": "tt0780536",
+  "tmdb_url": "https://www.themoviedb.org/movie/8321"
+ },
+ "eternal sunshine of the spotless mind": {
+  "name": "eternal sunshine of the spotless mind",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 38,
+  "title_fa": "درخشش ابدی یک ذهن پاک",
+  "title_en": "Eternal Sunshine of the Spotless Mind",
+  "year": 2004,
+  "poster": "https://image.tmdb.org/t/p/w500/5MwkWH9tYHv3mV9OdYTMR5qreIz.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/5MwkWH9tYHv3mV9OdYTMR5qreIz.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/95qi5TJMIBI5VzWHia88Pbrye7Z.jpg",
+  "overview": "دکتر هاوارد سرپرست یک کلینیک است که کار آن پاک کردن آن دسته از خاطرات افراد است که دوست ندارند آنها را در ذهن خود داشته باشند. کلینیکی که اغلب زوجها خصوصاً در روزهای نزدیک به ولنتاین به آن مراجعه می‌کنند تا خاطرات بدی را که از هم در ذهن خود دارند پاک کنند. تکنیسینهای کلینیک ابتدا مکان خاطرات مورد نظر را که به صورت لکه‌های روشنی روی مغز نمودار می‌شود، شناسایی کرده و سپس به محو کردن آن لکه‌های نور می‌پردازند. ابتدا کلمنتاین و سپس جول آگاهانه تصمیم به پاک کردن خاطرات مشترکشان می‌گیرند، اما حتی بعد از فراموشی یکدیگر....",
+  "runtime": 108,
+  "genres": [
+   "Science Fiction",
+   "Drama",
+   "Romance"
+  ],
+  "director": [
+   "Michel Gondry"
+  ],
+  "cast": [
+   "جیم کری",
+   "کیت وینسلت",
+   "کیرستن دانست",
+   "مارک رافلو"
+  ],
+  "country": [
+   "United States of America"
+  ],
+  "rating": 8.1,
+  "votes": 16989,
+  "imdb": "tt0338013",
+  "tmdb_url": "https://www.themoviedb.org/movie/38"
+ },
+ "kite runner": {
+  "name": "kite runner",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 7979,
+  "title_fa": "The Kite Runner",
+  "title_en": "The Kite Runner",
+  "year": 2007,
+  "poster": "https://image.tmdb.org/t/p/w500/dom2esWWW8C9jS2v7dOhW48LwHh.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/dom2esWWW8C9jS2v7dOhW48LwHh.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/CAC2F6C6R8hZ3AoByDX6Jj2VOw.jpg",
+  "overview": "After spending years in California, Amir returns to his homeland in Afghanistan to help his old friend Hassan, whose son is in trouble.",
+  "runtime": 128,
+  "genres": [
+   "Drama"
+  ],
+  "director": [
+   "مارک فورستر"
+  ],
+  "cast": [
+   "Khalid Abdalla",
+   "همایون ارشادی",
+   "شان طوب",
+   "Atossa Leoni"
+  ],
+  "country": [
+   "China",
+   "United Kingdom"
+  ],
+  "rating": 7.3,
+  "votes": 1300,
+  "imdb": "tt0419887",
+  "tmdb_url": "https://www.themoviedb.org/movie/7979"
+ },
+ "coda": {
+  "name": "coda",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 776503,
+  "title_fa": "کودا",
+  "title_en": "CODA",
+  "year": 2021,
+  "poster": "https://image.tmdb.org/t/p/w500/BzVjmm8l23rPsijLiNLUzuQtyd.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/BzVjmm8l23rPsijLiNLUzuQtyd.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/v85FlkbMYKa5du1glm0YfYNsL2n.jpg",
+  "overview": "«کودا» که کوتاه شده «فرزند بزرگسالان ناشنوا» (Child of Deaf Adults) است، سرگذشت «روبی» با بازی «امیلیا جونز» را دنبال می‌کند، تنها عضو شنوای یک خانواده‌ی ناشنوا. وقتی که کسب و کار ماهیگیری خانواده تهدید می‌شود، او دو راه تعقیب رؤیای موسیقی و ترس از ترک والدینش را پیش روی خود می‌بیند.",
+  "runtime": 112,
+  "genres": [
+   "Drama",
+   "Music",
+   "Romance"
+  ],
+  "director": [
+   "سیان هدر"
+  ],
+  "cast": [
+   "امیلیا جونز",
+   "مارلی مالتین",
+   "تروی کوتسور",
+   "اوگینو دربز"
+  ],
+  "country": [
+   "France",
+   "United States of America"
+  ],
+  "rating": 7.9,
+  "votes": 2787,
+  "imdb": "tt10366460",
+  "tmdb_url": "https://www.themoviedb.org/movie/776503"
+ },
+ "rushmore": {
+  "name": "Rushmore",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 11545,
+  "title_fa": "Rushmore",
+  "title_en": "Rushmore",
+  "year": 1998,
+  "poster": "https://image.tmdb.org/t/p/w500/hSJ6swahAuZ8wM96lHDTwQPXUvZ.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/hSJ6swahAuZ8wM96lHDTwQPXUvZ.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/m6AI69LyhJu4o7auQNTmjyMHBVT.jpg",
+  "overview": "When a beautiful first-grade teacher arrives at a prep school, she soon attracts the attention of an ambitious teenager named Max, who quickly falls in love with her. Max turns to the father of two of his schoolmates for advice on how to woo the teacher. However, the situation soon gets complicated when Max's new friend becomes involved with her, setting the two pals against one another in a war for her attention.",
+  "runtime": 93,
+  "genres": [
+   "Comedy",
+   "Drama"
+  ],
+  "director": [
+   "وس اندرسن"
+  ],
+  "cast": [
+   "جیسون شوارتزمن",
+   "بیل موری",
+   "اولیویا ویلیامز",
+   "Seymour Cassel"
+  ],
+  "country": [
+   "United States of America"
+  ],
+  "rating": 7.4,
+  "votes": 2857,
+  "imdb": "tt0128445",
+  "tmdb_url": "https://www.themoviedb.org/movie/11545"
+ },
+ "the worst person in the world": {
+  "name": "The Worst Person in the World",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 660120,
+  "title_fa": "بدترین فرد در جهان",
+  "title_en": "The Worst Person in the World",
+  "year": 2021,
+  "poster": "https://image.tmdb.org/t/p/w500/ainFJ7vYLaZwVQwr0Wmtw4t6l8E.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/ainFJ7vYLaZwVQwr0Wmtw4t6l8E.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/woYGBHERSMhIHqmkkRCbCXp81l4.jpg",
+  "overview": "داستان چهار سال از زندگی جولی، زن جوانی که در مسیر آشفته زندگی عاشقانه خود حرکت و برای یافتن مسیر موفقیت شغلی خود تلاش می کند. لذا این امر او را وادار می کند تا نگاهی واقع بینانه به شخصیت واقعی خود داشته باشد.",
+  "runtime": 128,
+  "genres": [
+   "Drama",
+   "Romance",
+   "Comedy"
+  ],
+  "director": [
+   "یواخیم تری‌یر"
+  ],
+  "cast": [
+   "رناته رینس‌وه",
+   "Anders Danielsen Lie",
+   "Herbert Nordrum",
+   "Hans Olav Brenner"
+  ],
+  "country": [
+   "Norway",
+   "Sweden"
+  ],
+  "rating": 7.4,
+  "votes": 2035,
+  "imdb": "tt10370710",
+  "tmdb_url": "https://www.themoviedb.org/movie/660120"
+ },
+ "night on earth": {
+  "name": "Night on Earth",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 339,
+  "title_fa": "شب روی زمین",
+  "title_en": "Night on Earth",
+  "year": 1991,
+  "poster": "https://image.tmdb.org/t/p/w500/ktejUHCo6c8DekpOtR3uSb6oDXr.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/ktejUHCo6c8DekpOtR3uSb6oDXr.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/s7lwxcX5iZuOdoQhM77WyQaPtWv.jpg",
+  "overview": "فیلم مجموعه‌ای از خرده‌روایت‌ها است که در طول یک شب برای تاکسی‌ها و مسافرانشان در پنج شهر متفاوت رخ می‌دهد: لس‌آنجلس، نیویورک، پاریس، رم و هلسینکی.",
+  "runtime": 129,
+  "genres": [
+   "Comedy",
+   "Drama"
+  ],
+  "director": [
+   "جیم جارموش"
+  ],
+  "cast": [
+   "وینونا رایدر",
+   "جنا رولندز",
+   "جیانکارلو اسپوزیتو",
+   "آرمین مولر-اشتال"
+  ],
+  "country": [
+   "United States of America",
+   "Japan"
+  ],
+  "rating": 7.5,
+  "votes": 1111,
+  "imdb": "tt0102536",
+  "tmdb_url": "https://www.themoviedb.org/movie/339"
+ },
+ "memories of murder": {
+  "name": "Memories of Murder",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 11423,
+  "title_fa": "خاطرات قتل",
+  "title_en": "Memories of Murder",
+  "year": 2003,
+  "poster": "https://image.tmdb.org/t/p/w500/hC5uadUqx4zXPnYD3Jxn6WQ6aE7.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/hC5uadUqx4zXPnYD3Jxn6WQ6aE7.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/6Kn6qW3an3DkPl3MahWemTzrjCt.jpg",
+  "overview": "کره جنوبی، سال ۱۹۸۶. برای دومین بار جسد یک زن، با دست و پای بسته، و در حالی که مورد تجاوز قرار گرفته پیدا می‌شود. دو کارآگاه پلیس محلی خشن و خیره سر مأمور رسیدگی به این پرونده شده و بدون هیچ ترفند خاصی، تنها با شکنجه و بازجویی مظنونین در کارشان جلو می‌روند. تا اینکه یک کارآگاه حرفه‌ای از سئول می‌آید تا به آن دو در تحقیقات کمک کند. بعد از پیدا شدن سومین جسد زن، آن‌ها سرنخ‌هایی از این قاتل سریالی به‌دست می‌آورند...",
+  "runtime": 131,
+  "genres": [
+   "Crime",
+   "Drama",
+   "Thriller"
+  ],
+  "director": [
+   "بونگ جون هو"
+  ],
+  "cast": [
+   "سونگ کانگ هو",
+   "김상경",
+   "김뢰하",
+   "송재호"
+  ],
+  "country": [
+   "South Korea"
+  ],
+  "rating": 8.1,
+  "votes": 4943,
+  "imdb": "tt0353969",
+  "tmdb_url": "https://www.themoviedb.org/movie/11423"
+ },
+ "tick, tick...boom!": {
+  "name": "tick, tick...BOOM!",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 537116,
+  "title_fa": "تیک، تیک... بوم!",
+  "title_en": "tick, tick... BOOM!",
+  "year": 2021,
+  "poster": "https://image.tmdb.org/t/p/w500/DPmfcuR8fh8ROYXgdjrAjSGA0o.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/DPmfcuR8fh8ROYXgdjrAjSGA0o.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/rKe3MR2u4ZZ0y9uKivzKJRrqBCe.jpg",
+  "overview": "On the brink of turning 30, a promising theater composer navigates love, friendship and the pressure to create something great before time runs out.",
+  "runtime": 120,
+  "genres": [
+   "Drama",
+   "Music"
+  ],
+  "director": [
+   "لین-منیول میراندا"
+  ],
+  "cast": [
+   "اندرو گارفیلد",
+   "الکساندرا شیپ",
+   "Robin de Jesús",
+   "Michaela Jaé Rodriguez"
+  ],
+  "country": [
+   "United States of America"
+  ],
+  "rating": 7.6,
+  "votes": 2406,
+  "imdb": "tt8721424",
+  "tmdb_url": "https://www.themoviedb.org/movie/537116"
+ },
+ "there will be blood": {
+  "name": "There Will Be Blood",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 7345,
+  "title_fa": "خون به پا خواهد شد",
+  "title_en": "There Will Be Blood",
+  "year": 2007,
+  "poster": "https://image.tmdb.org/t/p/w500/fa0RDkAlCec0STeMNAhPaF89q6U.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/fa0RDkAlCec0STeMNAhPaF89q6U.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/9UAKA6ceZi6TgQwTAAMt7DWwYPI.jpg",
+  "overview": "وقتی دانیل پلانیو اطلاع پیدا می کند که در شهر کوچکی در غرب، دریایی از نفت در حال تراوش از زمین است، فوری دست پسرش را می گیرد و به آنجا می رود تا شانسش را در گرد و خاک بوستن امتحان کند. دنیل که از کودکی تجربه‌های بدی با زندگی و انسان‌ها داشته، رفته‌ رفته از نوع بشر تنفر پیدا کرده و قصد دارد با به دست آوردن ثروتی کلان زندگی‌ای ترتیب دهد تا دیگر به نوع بشر و تعامل با آن نیازی نداشته‌ باشد. با وجود این طرز فکر، او به پسرخوانده‌ای که دست تقدیر بر سر راهش قرار داده و دنیل ابتدا از او در جهت دروغ خانواده‌دار بودن و برای تسهیل مذاکرات تجاری‌اش استفاده می‌کند دل می‌بندد. این پسرخوانده ناسپاس از آب در می‌آید و دنیل در تجربهٔ دیگری با شخصی روبرو می‌شود که خود را به دروغ، برادر گمشده‌ای از او معرفی می‌کند. این بار هم دنیل به نوع بشر شانس دیگری می‌دهد و به این “برادر” دل می‌بندد. بعداً او متوجه این دروغ نیز می‌شود و وی را می‌کشد. هر تجربه بد او را خشن‌تر می‌کند تا جایی‌ که دیگر از رنجاندن فجیع ناسپاسان و کشتن ریاکارانی که به سراغش می‌آیند ابایی ندارد و فیلم پایان خونینی دارد…",
+  "runtime": 158,
+  "genres": [
+   "Drama"
+  ],
+  "director": [
+   "پاول توماس آندرسن"
+  ],
+  "cast": [
+   "دنیل دی-لوئیس",
+   "پل دینو",
+   "کوین جی اکونر",
+   "کیران هایندز"
+  ],
+  "country": [
+   "United States of America"
+  ],
+  "rating": 8.1,
+  "votes": 7890,
+  "imdb": "tt0469494",
+  "tmdb_url": "https://www.themoviedb.org/movie/7345"
+ },
+ "the northman": {
+  "name": "The Northman",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 639933,
+  "title_fa": "مرد شمالی",
+  "title_en": "The Northman",
+  "year": 2022,
+  "poster": "https://image.tmdb.org/t/p/w500/zG4z1toRdBXFVcWDyQgkxqhH1yo.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/zG4z1toRdBXFVcWDyQgkxqhH1yo.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/fMiEp00v8gGWEceL4QeLu6H6z69.jpg",
+  "overview": "شاهزاده آملث در آستانه مرد شدن است که پدرش توسط عمویش به طرز وحشیانه‌ای به قتل می‌رسد کسی که مادر پسر را می‌رباید. دو دهه بعد، آملث اکنون یک وایکینگ است که به‌دنبال نجات مادرش، کشتن عمویش و انتقام پدرش است.",
+  "runtime": 137,
+  "genres": [
+   "Action",
+   "Adventure",
+   "Fantasy"
+  ],
+  "director": [
+   "رابرت اگرز"
+  ],
+  "cast": [
+   "الکساندر اسکارشگرد",
+   "نیکول کیدمن",
+   "کلیس بنگ",
+   "ایثن هاک"
+  ],
+  "country": [
+   "United States of America"
+  ],
+  "rating": 7.0,
+  "votes": 5405,
+  "imdb": "tt11138512",
+  "tmdb_url": "https://www.themoviedb.org/movie/639933"
+ },
+ "incendies": {
+  "name": "Incendies",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 46738,
+  "title_fa": "ویران‌شده",
+  "title_en": "Incendies",
+  "year": 2010,
+  "poster": "https://image.tmdb.org/t/p/w500/i5GsLIII66LubmOai65cWiB4kZq.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/i5GsLIII66LubmOai65cWiB4kZq.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/f3ATwil5vmUeTsogBaMEKbBYBth.jpg",
+  "overview": "روزنامه نگاری به خاورمیانه سفر می کند تا در مورد خانواده اش تحقیق کند و به آخرین آرزوهای مادرش پی ببرد...",
+  "runtime": 131,
+  "genres": [
+   "Drama",
+   "War",
+   "Mystery"
+  ],
+  "director": [
+   "دنیس ویلنیو"
+  ],
+  "cast": [
+   "لوبنا آزابال",
+   "ملیسا دسورمکس-پولین",
+   "ماکسیم گاده",
+   "رمی جیرارد"
+  ],
+  "country": [
+   "Canada",
+   "France"
+  ],
+  "rating": 8.1,
+  "votes": 3576,
+  "imdb": "tt1255953",
+  "tmdb_url": "https://www.themoviedb.org/movie/46738"
+ },
+ "cinema paradiso": {
+  "name": "Cinema Paradiso",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 11216,
+  "title_fa": "سینما پارادیزو",
+  "title_en": "Nuovo Cinema Paradiso",
+  "year": 1988,
+  "poster": "https://image.tmdb.org/t/p/w500/9af3JQqJ8ca8MY6H4K8JytDOYpw.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/9af3JQqJ8ca8MY6H4K8JytDOYpw.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/zoVeIgKzGJzpdG6Gwnr7iOYfIMU.jpg",
+  "overview": "A filmmaker recalls his childhood, when he fell in love with the movies at his village's theater and formed a deep friendship with the theater's projectionist.",
+  "runtime": 124,
+  "genres": [
+   "Drama",
+   "Romance"
+  ],
+  "director": [
+   "جوزپه تورناتوره"
+  ],
+  "cast": [
+   "Philippe Noiret",
+   "Jacques Perrin",
+   "Marco Leonardi",
+   "Salvatore Cascio"
+  ],
+  "country": [
+   "Italy",
+   "France"
+  ],
+  "rating": 8.4,
+  "votes": 5055,
+  "imdb": "tt0095765",
+  "tmdb_url": "https://www.themoviedb.org/movie/11216"
+ },
+ "victoria": {
+  "name": "Victoria",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 320007,
+  "title_fa": "Victoria",
+  "title_en": "Victoria",
+  "year": 2015,
+  "poster": "https://image.tmdb.org/t/p/w500/yNIppgHZTlDqypRO1qad5x7H8Ak.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/yNIppgHZTlDqypRO1qad5x7H8Ak.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/dGEBDMw3FaUmVGLn4vpjdgoTunk.jpg",
+  "overview": "A young Spanish woman who has newly moved to Berlin finds her flirtation with a local guy turn potentially deadly as their night out with his friends reveals a dangerous secret.",
+  "runtime": 138,
+  "genres": [
+   "Crime",
+   "Thriller",
+   "Romance"
+  ],
+  "director": [
+   "Sebastian Schipper"
+  ],
+  "cast": [
+   "Laia Costa",
+   "فردریک لاو",
+   "فرانتس روگوفسکی",
+   "Max Mauff"
+  ],
+  "country": [
+   "Germany",
+   "United States of America"
+  ],
+  "rating": 7.6,
+  "votes": 1426,
+  "imdb": "tt4226388",
+  "tmdb_url": "https://www.themoviedb.org/movie/320007"
+ },
+ "air": {
+  "name": "AIR",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 964980,
+  "title_fa": "Air",
+  "title_en": "Air",
+  "year": 2023,
+  "poster": "https://image.tmdb.org/t/p/w500/76AKQPdH3M8cvsFR9K8JsOzVlY5.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/76AKQPdH3M8cvsFR9K8JsOzVlY5.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/aT3sRVqgpkyCo23fp9myVfKPWbA.jpg",
+  "overview": "Discover the game-changing partnership between a then undiscovered Michael Jordan and Nike's fledgling basketball division which revolutionized the world of sports and culture with the Air Jordan brand.",
+  "runtime": 112,
+  "genres": [
+   "Drama",
+   "History"
+  ],
+  "director": [
+   "بن افلک"
+  ],
+  "cast": [
+   "مت دیمون",
+   "جیسون بیتمن",
+   "بن افلک",
+   "کریس مسینا"
+  ],
+  "country": [
+   "United States of America",
+   "Hong Kong"
+  ],
+  "rating": 7.3,
+  "votes": 2531,
+  "imdb": "tt16419074",
+  "tmdb_url": "https://www.themoviedb.org/movie/964980"
+ },
+ "snatch": {
+  "name": "SNATCH",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 107,
+  "title_fa": "قاپ زنی",
+  "title_en": "Snatch",
+  "year": 2000,
+  "poster": "https://image.tmdb.org/t/p/w500/rgZtjR4frQRq6SZkhgon2Jne1Xe.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/rgZtjR4frQRq6SZkhgon2Jne1Xe.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/32V4uHVRU2fbDsQl1dsYsZm3uba.jpg",
+  "overview": "رکیش (جیسون استتهام) و تامی (گراهام) از بوکسوری ایرلندی به نام میکی (برد پیت) می خواهند تا در یک مسابقه ی مشت زنی شکست بخورد. از طرف دیکر یک گنگستر روسی، باریس (سره بدزیا) که از گنگستری یهودی «فرانکی» (دل تورو) می خواهد که از طرف او روی مسابقه شرط بندی کند و در عین حال از صاحب یک مغازه ی گرویی نیز می خواهد تا با هم دستان کودنش پولهای شرط بندی را بدزدند…",
+  "runtime": 103,
+  "genres": [
+   "Crime",
+   "Comedy"
+  ],
+  "director": [
+   "گای ریچی"
+  ],
+  "cast": [
+   "جیسون استاتهام",
+   "Alan Ford",
+   "استیون گراهام",
+   "برد پیت"
+  ],
+  "country": [
+   "United Kingdom"
+  ],
+  "rating": 7.8,
+  "votes": 10473,
+  "imdb": "tt0208092",
+  "tmdb_url": "https://www.themoviedb.org/movie/107"
+ },
+ "spider-man: across the spider-verse": {
+  "name": "Spider-Man: Across the Spider-Verse",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 569094,
+  "title_fa": "مرد عنکبوتی: در میان دنیای عنکبوتی",
+  "title_en": "Spider-Man: Across the Spider-Verse",
+  "year": 2023,
+  "poster": "https://image.tmdb.org/t/p/w500/tnJHUwNIDEUZyGT8iEgxxa2nEwG.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/tnJHUwNIDEUZyGT8iEgxxa2nEwG.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/kVd3a9YeLGkoeR50jGEXM6EqseS.jpg",
+  "overview": "After reuniting with Gwen Stacy, Brooklyn’s full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he encounters the Spider Society, a team of Spider-People charged with protecting the Multiverse's very existence. But when the heroes clash on how to handle a new threat, Miles finds himself pitted against the other Spiders and must set out on his own to save those he loves most.",
+  "runtime": 140,
+  "genres": [
+   "Animation",
+   "Action",
+   "Adventure"
+  ],
+  "director": [
+   "Kemp Powers",
+   "Justin K. Thompson"
+  ],
+  "cast": [
+   "شامیک مور",
+   "هیلی استاینفلد",
+   "اسکار آیزاک",
+   "برایان تایری هنری"
+  ],
+  "country": [
+   "United States of America"
+  ],
+  "rating": 8.3,
+  "votes": 9551,
+  "imdb": "tt9362722",
+  "tmdb_url": "https://www.themoviedb.org/movie/569094"
+ },
+ "the farewell": {
+  "name": "The Farewell",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 565310,
+  "title_fa": "The Farewell",
+  "title_en": "The Farewell",
+  "year": 2019,
+  "poster": "https://image.tmdb.org/t/p/w500/7ht2IMGynDSVQGvAXhAb83DLET8.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/7ht2IMGynDSVQGvAXhAb83DLET8.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/5INPBiKVRsyp9kgHfsC0cTfvKFH.jpg",
+  "overview": "A headstrong Chinese-American woman returns to China when her beloved grandmother is given a terminal diagnosis. Billi struggles with her family's decision to keep grandma in the dark about her own illness as they all stage an impromptu wedding to see grandma one last time.",
+  "runtime": 100,
+  "genres": [
+   "Comedy",
+   "Drama"
+  ],
+  "director": [
+   "Lulu Wang"
+  ],
+  "cast": [
+   "آکوافینا",
+   "赵淑珍",
+   "Hong Lu",
+   "Hong Lin"
+  ],
+  "country": [
+   "China",
+   "United States of America"
+  ],
+  "rating": 7.4,
+  "votes": 1604,
+  "imdb": "tt8637428",
+  "tmdb_url": "https://www.themoviedb.org/movie/565310"
+ },
+ "are you there god? it's me, margaret.": {
+  "name": "Are You There God? It's Me, Margaret.",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 555285,
+  "title_fa": "Are You There God? It's Me, Margaret.",
+  "title_en": "Are You There God? It's Me, Margaret.",
+  "year": 2023,
+  "poster": "https://image.tmdb.org/t/p/w500/yb6UB4WC3znlwU0L4AqMnjR9G9S.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/yb6UB4WC3znlwU0L4AqMnjR9G9S.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/qNmLEOGZy37vKAPqcTuZ47uCOS9.jpg",
+  "overview": "When her family moves from New York City to New Jersey, an 11-year-old girl navigates new friends, feelings, and the beginning of adolescence.",
+  "runtime": 106,
+  "genres": [
+   "Comedy",
+   "Drama"
+  ],
+  "director": [
+   "کلی فرمون-کریگ"
+  ],
+  "cast": [
+   "Abby Ryder Fortson",
+   "ریچل مک‌آدامز",
+   "کتی بیتس",
+   "Elle Graham"
+  ],
+  "country": [
+   "United States of America"
+  ],
+  "rating": 7.1,
+  "votes": 557,
+  "imdb": "tt9185206",
+  "tmdb_url": "https://www.themoviedb.org/movie/555285"
+ },
+ "the wave": {
+  "name": "The Wave",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 7735,
+  "title_fa": "Die Welle",
+  "title_en": "The Wave",
+  "year": 2008,
+  "poster": "https://image.tmdb.org/t/p/w500/okD4ZJlmySKI0SBHGFLs0QX4Ief.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/okD4ZJlmySKI0SBHGFLs0QX4Ief.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/bxQT6xCjejpGtgKl0QH8WUtrs33.jpg",
+  "overview": "A school teacher discusses types of government with his class. His students find it too boring to repeatedly go over national socialism and believe that dictatorship cannot be established in modern Germany. He starts an experiment to show how easily the masses can become manipulated.",
+  "runtime": 107,
+  "genres": [
+   "Drama",
+   "Thriller"
+  ],
+  "director": [
+   "دنیس گانزل"
+  ],
+  "cast": [
+   "Jürgen Vogel",
+   "فردریک لاو",
+   "Max Riemelt",
+   "Jennifer Ulrich"
+  ],
+  "country": [
+   "Germany"
+  ],
+  "rating": 7.5,
+  "votes": 3738,
+  "imdb": "tt1063669",
+  "tmdb_url": "https://www.themoviedb.org/movie/7735"
+ },
+ "obsession": {
+  "name": "Obsession",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 1339713,
+  "title_fa": "وسوسه",
+  "title_en": "Obsession",
+  "year": 2026,
+  "poster": "https://image.tmdb.org/t/p/w500/1u1nsgGb4Hy819ZqnciJ80nfeWp.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/1u1nsgGb4Hy819ZqnciJ80nfeWp.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/5lTZyuBTNOfawsfPT8Q0cIg6qAF.jpg",
+  "overview": "After breaking the mysterious \"One Wish Willow\" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price.",
+  "runtime": 109,
+  "genres": [
+   "Horror",
+   "Thriller"
+  ],
+  "director": [
+   "Curry Barker"
+  ],
+  "cast": [
+   "مایکل جانستون",
+   "ایندی ناوارتی",
+   "Cooper Tomlinson",
+   "Megan Lawless"
+  ],
+  "country": [
+   "United States of America",
+   "United Kingdom"
+  ],
+  "rating": 8.2,
+  "votes": 6618,
+  "imdb": "tt37287335",
+  "tmdb_url": "https://www.themoviedb.org/movie/1339713"
+ },
+ "late shift": {
+  "name": "Late Shift",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 1356670,
+  "title_fa": "نوبت عصر",
+  "title_en": "Late Shift",
+  "year": 2025,
+  "poster": "https://image.tmdb.org/t/p/w500/yfzWIdiS10jb9GpeOXYuxHXGIAa.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/yfzWIdiS10jb9GpeOXYuxHXGIAa.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/hBTOBzXTa5q1Hpxo7sWfXVBkpv3.jpg",
+  "overview": "\"فلوریا\" پرستاری فداکار، بی‌وقفه در بخشی از بیمارستان که با کمبود نیرو مواجه است کار می‌کند. اما امروز، شیفت کاری او به مسابقه‌ای پرتنش و نفس‌گیر با زمان تبدیل می‌شود و ...",
+  "runtime": 92,
+  "genres": [
+   "Drama"
+  ],
+  "director": [
+   "Petra Biondina Volpe"
+  ],
+  "cast": [
+   "لیونی بنش",
+   "Alireza Bayram",
+   "Jürg Plüss",
+   "Jasmin Mattei"
+  ],
+  "country": [
+   "Switzerland",
+   "Germany"
+  ],
+  "rating": 7.8,
+  "votes": 373,
+  "imdb": "tt32204858",
+  "tmdb_url": "https://www.themoviedb.org/movie/1356670"
+ },
+ "silenced": {
+  "name": "Silenced",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 81481,
+  "title_fa": "도가니",
+  "title_en": "Silenced",
+  "year": 2011,
+  "poster": "https://image.tmdb.org/t/p/w500/pUfuy7mSXw0dohRPeWnrhoIJdOU.jpg",
+  "poster_small": "https://image.tmdb.org/t/p/w342/pUfuy7mSXw0dohRPeWnrhoIJdOU.jpg",
+  "backdrop": "https://image.tmdb.org/t/p/w780/3xTS1lDlbpwg63slWSMeHdamOS1.jpg",
+  "overview": "Based on actual events that took place at Gwangju Inhwa School for the hearing-impaired, where young deaf students were the victims of repeated sexual assaults by faculty members over a period of five years in the early 2000s.",
+  "runtime": 125,
+  "genres": [
+   "Drama"
+  ],
+  "director": [
+   "هوانگ دونگ هیوک"
+  ],
+  "cast": [
+   "گونگ یو",
+   "정유미",
+   "김현수",
+   "정인서"
+  ],
+  "country": [
+   "South Korea"
+  ],
+  "rating": 8.2,
+  "votes": 830,
+  "imdb": "tt2070649",
+  "tmdb_url": "https://www.themoviedb.org/movie/81481"
+ },
+ "اسکورت": {
+  "name": "اسکورت",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 1625043,
+  "title_fa": "اسکورت",
+  "title_en": "اسکورت",
+  "year": 2026,
+  "poster": "https://image.tmdb.org/t/p/w500/aIyQvXzN82Msboo6kibTJkZmXGH.jpg",
+  "overview": "A police soldier is forced to become an escort for a female shooti to deliver the illegal cargo to its destination in order to obtain cancer medicine for his friend.",
+  "runtime": 100,
+  "genres": [
+   "Action",
+   "Drama",
+   "Crime"
+  ],
+  "director": [
+   "Yousef Hatamikia"
+  ],
+  "cast": [
+   "امیر جدیدی",
+   "Hoda Zeinolabedin",
+   "Mahdi Zaminpardaz",
+   "Afshin Hashemi"
+  ],
+  "country": [
+   "Iran"
+  ],
+  "rating": 4.0,
+  "votes": 2,
+  "imdb": "tt39796101",
+  "tmdb_url": "https://www.themoviedb.org/movie/1625043"
+ },
+ "خانم والده": {
+  "name": "خانم والده",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 1754844,
+  "title_fa": "خانوم والده",
+  "title_en": "خانوم والده",
+  "year": 2026,
+  "poster": "https://image.tmdb.org/t/p/w500/7JMOxWfz38uAO74YkfZp1BWkta.jpg",
+  "overview": "The story of two brothers who are struggling financially when they suddenly receive an inheritance.",
+  "runtime": 90,
+  "genres": [
+   "Comedy"
+  ],
+  "director": [
+   "Soheil Movaffagh"
+  ],
+  "cast": [
+   "رضا عطاران",
+   "عباس جمشیدی‌فر",
+   "Shabnam Ghorbani",
+   "Gholamreza Nikkhah"
+  ],
+  "country": [
+   "Iran"
+  ],
+  "rating": 0,
+  "votes": 0,
+  "imdb": null,
+  "tmdb_url": "https://www.themoviedb.org/movie/1754844"
+ },
+ "بت": {
+  "name": "بت",
+  "ok": true,
+  "source": "tmdb",
+  "tmdb_id": 1417426,
+  "title_fa": "بت",
+  "title_en": "بت",
+  "year": 2026,
+  "poster": "https://image.tmdb.org/t/p/w500/cbfrITpy1JMkzkEaFL0WX0Wr8XJ.jpg",
+  "overview": "A drama about leila, a beekeeper who participates in an online challenge in order to grow her social media page for her honey selling business. This results in a spiral of events that turns a simple challenge into a complex out of control event.",
+  "runtime": 144,
+  "genres": [
+   "Drama"
+  ],
+  "director": [
+   "Hamid Nematollah"
+  ],
+  "cast": [
+   "لیلا حاتمی",
+   "Mohammad Reza Foroutan",
+   "Leili Rashidi",
+   "نوید پورفرج"
+  ],
+  "country": [
+   "Iran"
+  ],
+  "rating": 3.5,
+  "votes": 2,
+  "imdb": null,
+  "tmdb_url": "https://www.themoviedb.org/movie/1417426"
+ },
+ "بی‌دار": {
+  "name": "بی‌دار",
+  "ok": false,
+  "source": "tmdb",
+  "reason": "not found on tmdb"
+ }
+}
