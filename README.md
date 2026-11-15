@@ -1,52 +1,45 @@
-# GitHub Pages Site for Ehsan Mansoori
+# احسان منصوری | راوی سینما
 
-This repository contains the official website for Ehsan Mansoori (@ehsanmansoori), the cinema narrator and film critic.
-
-## Features
-
-- Responsive design optimized for all devices
-- RTL layout with Vazirmatn font for Persian content
-- Complete showcase of film review programs
-- Social media integration
-- Contact form functionality
-- Interactive movie filtering
-
-## Programs
-
-### Movie Recommendations (Movies to Watch Before Death)
-- 7 seasons of comprehensive movie reviews
-- IMDB ratings 8.0+
-- Covers various genres including drama, action, sci-fi
-
-### Popcorn
-- Quick movie reviews in 1 minute format
-- 140+ episodes
-- IMDB ratings 7.0+
-- Focus on quality films
-
-### Bilet
- Iranian cinema reviews
-- Analysis of currently screening films
-- Quality assessments for ticket buyers
-- 10+ episodes
-
-## Social Media
-
-- **YouTube**: 531+ videos, 159K+ subscribers, 50M+ views
-- **Instagram**: 411+ posts, 669K+ followers, 5M+ likes
-- **Twitter**: Film industry news and technical insights
-
-## Contact
-
-For collaboration, sponsorship, or feedback:
-- Email: ehsanmansoori.contact@gmail.com
-- Business inquiries: @mansoori_ads
-
-## Deployment
-
-This site is automatically deployed to GitHub Pages at:
+هاب مستقل و یکپارچه محتوای احسان منصوری (`@ehsanmansoori`) روی GitHub Pages:
 https://ehsanmansoori.github.io
 
-## License
+## چه چیزی در سایت هست
 
-All content © 2024 Ehsan Mansoori. All rights reserved.
+- بنر و عکس پروفایل اصلی، برداشته‌شده از کانال رسمی یوتیوب
+- چیدمان کامل راست‌چین (RTL) با فونت وزیرمتن و صفر letter-spacing
+- تم تیره سینمایی، بدون اموجی تزئینی و بدون کاراکتر em-dash
+- لینک مستقیم تمام قسمت‌ها به یوتیوب و ریلزهای اینستاگرام
+- آرشیو فیلترپذیر فیلم‌ها (۳۴ عنوان) با لینک به همان ویدیویی که فیلم در آن بررسی شده
+
+## ساختار
+
+```
+index.html
+assets/css/style.css
+assets/js/main.js
+assets/images/profile.jpg
+assets/images/header_banner.jpg
+```
+
+## منابع داده (همه راستی‌آزمایی‌شده)
+
+| بخش | منبع | اعتبارسنجی |
+|---|---|---|
+| بنر و آواتار | صفحه کانال یوتیوب | `yt3.googleusercontent.com` با ابعاد ۲۱۲۰×۳۵۱ و ۹۰۰×۹۰۰ |
+| قسمت‌های «قبل از مرگ» | ۵ ویدیوی یوتیوب | عنوان هر ویدیو با oEmbed یوتیوب تأیید شد |
+| تایم‌کد هر فیلم | توضیحات (chapter) همان ویدیو | استخراج‌شده از chapter رسمی یوتیوب |
+| قسمت‌های پاپ‌کورن | ۵ ریلز اینستاگرام | کپشن هر ریلز شامل شماره قسمت، فیلم، کارگردان و امتیاز |
+| پلی‌لیست «قبل از مرگ» | `PLHPi-Jd5RkUEDw2PoJelP0bTz1EqteVd3` | با oEmbed یوتیوب تأیید شد |
+| قسمت «بلیت» | ویدیوی بررسی بت، بی‌دار، اسکورت، خانم والده | عنوان و chapter تأیید شد |
+
+## فیلتر آرشیو
+
+`all` / `drama` / `thriller` / `scifi` / `iran` روی `data-genre` کار می‌کند و هر کارت مستقیماً به یوتیوب یا اینستاگرام لینک است.
+
+## استقرار
+
+هر push روی `main` به‌صورت خودکار روی GitHub Pages منتشر می‌شود.
+
+## حق نشر
+
+تمام محتوای ویدیویی و تصویری متعلق به احسان منصوری است.
