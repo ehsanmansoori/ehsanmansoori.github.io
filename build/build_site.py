@@ -182,6 +182,17 @@ def _lookup_meta(meta: dict, name: str) -> dict | None:
     return None
 
 
+
+def _dual(meta: dict, name: str) -> str:
+    """Persian name first, English underneath, for every film label."""
+    m = _lookup_meta(meta, name) or {}
+    fa = m.get("display_fa")
+    en = m.get("title_en") or name
+    if fa and fa != en:
+        return f'{fa}<span class="ep-en" dir="ltr">{en}</span>'
+    return f'{en}'
+
+
 def _poster(p: str) -> str:
     """TMDB serves every size from one path, so downgrade to a list-friendly width."""
     return p.replace("/w500/", "/w342/") if p else ""
@@ -198,10 +209,9 @@ def build_library(eps: list[dict], meta: dict) -> list[dict]:
             return
         seen.add(key)
         ok = bool(m.get("ok"))
-        fa_title = m.get("title_fa") if ok else None
-        # TMDB sometimes has no Persian translation and returns the original script
-        if not fa_title or not any("\u0600" <= ch <= "\u06FF" for ch in fa_title):
-            fa_title = m.get("title_en") or name
+        # every card carries both names: Persian first, English underneath
+        fa_title = m.get("display_fa") or m.get("title_fa") or m.get("title_en") or name
+        en_title = m.get("title_en") or name
         items.append(
             {
                 "name": name,
@@ -211,7 +221,7 @@ def build_library(eps: list[dict], meta: dict) -> list[dict]:
                 "chip": chip,
                 "t": t,
                 "title": fa_title,
-                "title_en": m.get("title_en") or name,
+                "title_en": en_title,
                 "year": m.get("year"),
                 "runtime": m.get("runtime"),
                 "poster": _poster(m.get("poster") or ""),
@@ -349,12 +359,14 @@ def render_library(items: list[dict]) -> str:
 
 
 def render(eps: list[dict]) -> str:
+    films_meta = load_films()
     ep_cards = []
     for ep in eps:
         if ep["films"]:
             films_html = "\n".join(
                 f'<li><a href="{yt(ep["vid"], f["t"])}" target="_blank" rel="noopener">'
-                f'<span class="ep-t">{f["ts"]}</span><span class="ep-name">{f["name"]}</span></a></li>'
+                f'<span class="ep-t">{f["ts"]}</span>'
+                f'<span class="ep-name">{_dual(films_meta, f["name"])}</span></a></li>'
                 for f in ep["films"]
             )
             body = f'<ul class="ep-films">{films_html}</ul>'
@@ -401,7 +413,7 @@ def render(eps: list[dict]) -> str:
     )
 
     STAMP = asset_stamp()
-    library = build_library(eps, load_films())
+    library = build_library(eps, films_meta)
     library_section = render_library(library)
     films_total = len(library)
     eps_with_list = sum(1 for e in eps if e["films"])
