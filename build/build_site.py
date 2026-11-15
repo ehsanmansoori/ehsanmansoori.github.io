@@ -26,6 +26,7 @@ YT_CHANNEL = "https://www.youtube.com/@ehsanmansoori"
 IG = "https://www.instagram.com/ehsan_mansoori"
 X = "https://x.com/EhsanMansoorii"
 PLAYLIST = "https://www.youtube.com/playlist?list=PLHPi-Jd5RkUEDw2PoJelP0bTz1EqteVd3"
+GOOGLE_VERIFICATION = "1bSuT-QoDy7ukGYtf0DVP8jBzHzIhxEqGPHMJVxjD94"
 
 JUNK = re.compile(r"^(معرفی|جریان چیه|اولویت بندی|اسپانسر|حمایت|تبلیغ)\s*$", re.I)
 PERSIAN_DIGITS = str.maketrans("0123456789", "۰۱۲۳۴۵۶۷۸۹")
@@ -266,6 +267,7 @@ def render(eps: list[dict], archive: list[dict]) -> str:
 <link rel="canonical" href="{SITE}/">
 <meta name="theme-color" content="#0b0d11">
 <meta name="author" content="{PERSON_FA}">
+<meta name="google-site-verification" content="{GOOGLE_VERIFICATION}">
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="{PERSON_FA} | راوی سینما">
