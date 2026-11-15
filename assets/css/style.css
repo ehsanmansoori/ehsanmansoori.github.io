@@ -975,3 +975,262 @@ ul {
         padding-bottom: 0.5rem;
     }
 }
+
+/* ==========================================================================
+   Episode cards, search, archive cards (generated sections)
+   ========================================================================== */
+.episodes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    gap: 1.5rem;
+}
+
+.episode-card {
+    background-color: var(--bg-surface);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: var(--transition);
+}
+
+.episode-card:hover {
+    border-color: var(--border-strong);
+    transform: translateY(-2px);
+}
+
+.ep-thumb {
+    position: relative;
+    display: block;
+    aspect-ratio: 16 / 9;
+    background-color: #0a0c10;
+    overflow: hidden;
+}
+
+.ep-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.ep-play {
+    position: absolute;
+    inset-block-end: 0.6rem;
+    inset-inline-start: 0.6rem;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: rgba(229, 9, 20, 0.92);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ep-play svg {
+    width: 16px;
+    height: 16px;
+    fill: #ffffff;
+}
+
+.ep-body {
+    padding: 1.15rem 1.25rem 1.35rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.ep-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.6rem;
+    border-bottom: 1px solid var(--border-subtle);
+    padding-bottom: 0.6rem;
+}
+
+.ep-head h3 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.ep-count {
+    font-size: 0.75rem;
+    color: var(--accent-gold);
+    white-space: nowrap;
+}
+
+.ep-films {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+}
+
+.ep-films a {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding-block: 0.3rem;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    border-radius: var(--radius-sm);
+}
+
+.ep-films a:hover {
+    color: var(--text-primary);
+    background-color: rgba(255, 255, 255, 0.03);
+}
+
+.ep-t {
+    font-size: 0.72rem;
+    font-variant-numeric: tabular-nums;
+    direction: ltr;
+    color: var(--brand-red);
+    background-color: rgba(229, 9, 20, 0.1);
+    padding: 0.1rem 0.4rem;
+    border-radius: var(--radius-sm);
+    flex: 0 0 auto;
+}
+
+.ep-name {
+    flex: 1 1 auto;
+}
+
+.ep-empty {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* search */
+.search-row {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.search-input {
+    flex: 1 1 280px;
+    padding: 0.75rem 1rem;
+    background-color: var(--bg-surface);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-md);
+    color: var(--text-primary);
+    font-family: inherit;
+    font-size: 0.95rem;
+}
+
+.search-input::placeholder {
+    color: var(--text-muted);
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: var(--brand-red);
+}
+
+.search-count {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    white-space: nowrap;
+}
+
+/* archive cards */
+.film-card {
+    background-color: var(--bg-surface);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-md);
+    padding: 1rem 1.1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: space-between;
+    min-height: 118px;
+    transition: var(--transition);
+}
+
+.film-card:hover {
+    border-color: var(--brand-red);
+    transform: translateY(-2px);
+}
+
+.film-chip {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    font-size: 0.72rem;
+}
+
+.film-ep {
+    color: var(--text-muted);
+}
+
+.film-time {
+    direction: ltr;
+    font-variant-numeric: tabular-nums;
+    color: var(--brand-red);
+    background-color: rgba(229, 9, 20, 0.1);
+    padding: 0.05rem 0.35rem;
+    border-radius: var(--radius-sm);
+}
+
+.film-card h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin: 0;
+    line-height: 1.45;
+    direction: ltr;
+    text-align: end;
+}
+
+.film-go {
+    font-size: 0.76rem;
+    color: var(--text-muted);
+}
+
+.film-card:hover .film-go {
+    color: var(--brand-red);
+}
+
+.empty-state {
+    text-align: center;
+    color: var(--text-muted);
+    padding-block: 2rem;
+}
+
+.notfound {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.notfound .hero-actions {
+    margin-top: 1.5rem;
+}
+
+/* mobile: keep every nav item reachable without a hidden scroll area */
+@media (max-width: 700px) {
+    .main-nav {
+        flex-wrap: wrap;
+        gap: 0.6rem 1rem;
+        overflow-x: visible;
+        padding-bottom: 0.25rem;
+    }
+
+    .nav-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.75rem;
+    }
+
+    .episodes-grid {
+        grid-template-columns: 1fr;
+    }
+}
